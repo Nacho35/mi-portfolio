@@ -7,7 +7,7 @@ const About = () => {
       <h2 className="flex justify-start font-semibold text-4xl p-3 pl-10 text-white">
         About Me
       </h2>
-      <p className="flex text-center font-semibold text-gold ml-2 text-base">
+      <p className="flex text-start font-semibold text-gold ml-2 text-base">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis labore rem
         quibusdam deserunt possimus est hic, fuga eveniet quidem cumque, impedit
         maiores qui unde, incidunt distinctio neque minima repellendus
