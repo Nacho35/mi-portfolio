@@ -8,7 +8,7 @@ const Hero = () => {
         <div class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
           <h1 class="title-font text-xl sm: mb-4 font-semibold text-white lg:text-3xl">
             Hola Soy!{" "}
-            <span className="flex flex-col text-5xl text-gold font-semibold my-2  lg:text-6xl">
+            <span className="flex flex-col text-5xl text-gold font-semibold my-2  lg:text-6xl md:text-4xl">
               Ignacio Morales
             </span>
             <br class="hidden lg:inline-block" />

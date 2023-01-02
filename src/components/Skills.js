@@ -17,7 +17,7 @@ const Skills = () => {
       </h2>
       <div className="w-full">
         <div className="flex justify-center py-6 md:space-x-16 lg:space-x-44">
-          <div className="relative flex justify-center bg-transparent px-8 rounded-lg md:hover:bg-gold lg:hover:bg-gold">
+          <div className="relative flex justify-center bg-transparent px-8 rounded-lg md:hover:bg-obscure lg:hover:bg-obscure">
             <img
               className="ml-auto mr-auto my-7"
               src={html}
@@ -28,7 +28,7 @@ const Skills = () => {
               HTML
             </p>
           </div>
-          <div className="relative flex justify-center bg-transparent px-8 rounded-lg md:hover:bg-gold lg:hover:bg-gold">
+          <div className="relative flex justify-center bg-transparent px-8 rounded-lg md:hover:bg-obscure lg:hover:bg-obscure">
             <img
               className="ml-auto mr-auto my-7"
               src={css}
@@ -39,7 +39,7 @@ const Skills = () => {
               CSS
             </p>
           </div>
-          <div className="relative flex justify-center bg-transparent px-8 rounded-lg md:hover:bg-gold lg:hover:bg-gold">
+          <div className="relative flex justify-center bg-transparent px-8 rounded-lg md:hover:bg-obscure lg:hover:bg-obscure">
             <img
               className="ml-auto mr-auto my-7"
               src={javascript}
@@ -50,7 +50,7 @@ const Skills = () => {
               JavaScript
             </p>
           </div>
-          <div className="relative flex justify-center bg-transparent px-8 rounded-lg md:hover:bg-gold lg:hover:bg-gold">
+          <div className="relative flex justify-center bg-transparent px-8 rounded-lg md:hover:bg-obscure lg:hover:bg-obscure">
             <img
               className="ml-auto mr-auto my-7"
               src={react}
@@ -63,7 +63,7 @@ const Skills = () => {
           </div>
         </div>
         <div className="flex justify-center relative py-6 md:space-x-16 lg:space-x-44">
-          <div className="relative flex justify-center bg-transparent px-8 rounded-lg md:hover:bg-gold lg:hover:bg-gold">
+          <div className="relative flex justify-center bg-transparent px-8 rounded-lg md:hover:bg-obscure lg:hover:bg-obscure">
             <img
               className="ml-auto mr-auto my-7"
               src={nodejs}
@@ -74,7 +74,7 @@ const Skills = () => {
               Node.js
             </p>
           </div>
-          <div className="relative flex justify-center bg-transparent px-8 rounded-lg md:hover:bg-gold lg:hover:bg-gold">
+          <div className="relative flex justify-center bg-transparent px-8 rounded-lg md:hover:bg-obscure lg:hover:bg-obscure">
             <img
               className="ml-auto mr-auto my-7"
               src={mongo}
@@ -85,7 +85,7 @@ const Skills = () => {
               MongoDB
             </p>
           </div>
-          <div className="relative flex justify-center bg-transparent px-8 rounded-lg md:hover:bg-gold lg:hover:bg-gold">
+          <div className="relative flex justify-center bg-transparent px-8 rounded-lg md:hover:bg-obscure lg:hover:bg-obscure">
             <img
               className="ml-auto mr-auto my-7"
               src={git}
@@ -96,7 +96,7 @@ const Skills = () => {
               Git
             </p>
           </div>
-          <div className="relative flex justify-center bg-transparent px-8 rounded-lg md:hover:bg-gold lg:hover:bg-gold">
+          <div className="relative flex justify-center bg-transparent px-8 rounded-lg md:hover:bg-obscure lg:hover:bg-obscure">
             <img
               className="ml-auto mr-auto my-7"
               src={github}

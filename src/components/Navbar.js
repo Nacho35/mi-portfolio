@@ -9,7 +9,7 @@ const Navbar = () => {
         <div className="max-w-full mr-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-center h-16 space-x-2 lg:grid grid-cols-2">
             <a
-              className="text-gold hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-xl lg:hover:bg-transparent"
+              className="text-gold hover:bg-gold hover:text-mate px-3 py-2 rounded-md text-xl lg:hover:bg-transparent lg:hover:text-white"
               href="#">
               Ignacio Morales
             </a>
@@ -18,25 +18,25 @@ const Navbar = () => {
                 <div className="ml-10 flex items-end flex-row space-x-4 lg:flex justify-end">
                   <a
                     href="#"
-                    className="text-gold hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-xl lg:hover:bg-transparent">
+                    className="text-gold hover:bg-gold hover:text-mate px-3 py-2 rounded-md text-xl lg:hover:bg-transparent lg:hover:text-white">
                     Inicio
                   </a>
 
                   <a
                     href="#"
-                    className="text-gold hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-xl lg:hover:bg-transparent">
+                    className="text-gold hover:bg-gold hover:text-mate px-3 py-2 rounded-md text-xl lg:hover:bg-transparent lg:hover:text-white">
                     Acerca de
                   </a>
 
                   <a
                     href="#"
-                    className="text-gold hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-xl lg:hover:bg-transparent">
+                    className="text-gold hover:bg-gold hover:text-mate px-3 py-2 rounded-md text-xl lg:hover:bg-transparent lg:hover:text-white">
                     Proyectos
                   </a>
 
                   <a
                     href="#"
-                    className="text-gold hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-xl lg:hover:bg-transparent">
+                    className="text-gold hover:bg-gold hover:text-mate px-3 py-2 rounded-md text-xl lg:hover:bg-transparent lg:hover:text-white">
                     Contacto
                   </a>
                 </div>
@@ -99,25 +99,25 @@ const Navbar = () => {
               <div ref={ref} className="px-2 pb-3 space-y-1 sm:px-3">
                 <a
                   href="#"
-                  className="text-gold hover:bg-gray-700 hover:text-white block px-2 py-4 rounded-md text-xl">
+                  className="text-gold hover:bg-gold hover:text-mate block px-2 py-4 rounded-md text-xl">
                   Inicio
                 </a>
 
                 <a
                   href="#"
-                  className="text-gold hover:bg-gray-700 hover:text-white block  px-2 py-4 rounded-md text-xl">
+                  className="text-gold hover:bg-gold hover:text-mate block  px-2 py-4 rounded-md text-xl">
                   Acerca de
                 </a>
 
                 <a
                   href="#"
-                  className="text-gold hover:bg-gray-700 hover:text-white block px-2 py-4 rounded-md text-xl">
+                  className="text-gold hover:bg-gold hover:text-mate block px-2 py-4 rounded-md text-xl">
                   Proyectos
                 </a>
 
                 <a
                   href="#"
-                  className="text-gold hover:bg-gray-700 hover:text-white block px-2 py-4 rounded-md text-xl">
+                  className="text-gold hover:bg-gold hover:text-mate block px-2 py-4 rounded-md text-xl">
                   Contacto
                 </a>
               </div>
