@@ -4,10 +4,10 @@ import arrow from "../assets/down.svg";
 const About = () => {
   return (
     <div className="font-lato bg-mate">
-      <h2 className="flex justify-start font-semibold text-4xl p-3 pl-10 text-white">
-        About Me
+      <h2 className="flex justify-start font-semibold text-4xl p-3 pb-6 text-white">
+        Acerca de
       </h2>
-      <p className="flex text-start font-semibold text-gold ml-2 text-base">
+      <p className="flex text-justify mx-5 font-semibold text-gold ml-2 text-base">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis labore rem
         quibusdam deserunt possimus est hic, fuga eveniet quidem cumque, impedit
         maiores qui unde, incidunt distinctio neque minima repellendus
@@ -20,7 +20,7 @@ const About = () => {
         doloremque qui est similique soluta? Deleniti necessitatibus repellat
         enim natus sit, sunt iusto atque. Rerum enim porro tempora.
       </p>
-      <button class="flex mx-auto mt-12 border-none text-white bg-transparent border-2 border-gold  py-2 px-6 focus:outline-none text-4xl font-semibold transition ease-in-out delay-100 hover:-translate-y-1 hover:scale-110">
+      <button class="flex mx-auto mt-12 border-none text-white bg-transparent border-2 border-gold px-6 focus:outline-none text-4xl font-semibold transition ease-in-out delay-100 hover:-translate-y-1 hover:scale-110">
         <img className="w-10 h-10" src={arrow} alt="icon" />
       </button>
     </div>

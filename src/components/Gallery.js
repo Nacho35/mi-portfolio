@@ -1,18 +1,14 @@
 import React from "react";
+import arrow from "../assets/down.svg";
 
 const Gallery = () => {
   return (
-    <section class="text-gray-600 body-font">
-      <div class="container px-5 py-24 mx-auto">
-        <div class="flex flex-col text-center w-full mb-20">
-          <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">
-            Master Cleanse Reliac Heirloom
+    <section class="text-gold font-lato font-semibold bg-mate">
+      <div class="container px-5 py-10 mx-auto">
+        <div class="flex flex-col text-center w-full mb-16">
+          <h1 class="sm:text-3xl text-3xl font-lg title-font mb-4 text-white">
+            Mis Proyectos
           </h1>
-          <p class="lg:w-2/3 mx-auto leading-relaxed text-base">
-            Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical
-            gentrify, subway tile poke farm-to-table. Franzen you probably
-            haven't heard of them man bun deep jianbing selfies heirloom.
-          </p>
         </div>
         <div class="flex flex-wrap -m-4">
           <div class="lg:w-1/3 sm:w-1/2 p-4">
@@ -22,16 +18,13 @@ const Gallery = () => {
                 class="absolute inset-0 w-full h-full object-cover object-center"
                 src="https://dummyimage.com/600x360"
               />
-              <div class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
-                <h2 class="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">
-                  THE SUBTITLE
+              <div class="px-8 py-10 relative z-10 w-full border-4 border-gold bg-mate opacity-0 hover:opacity-100">
+                <h2 class="tracking-widest text-md title-font font-lg text-gold mb-6">
+                  Lorem, ipsum dolor.
                 </h2>
-                <h1 class="title-font text-lg font-medium text-gray-900 mb-3">
-                  Shooting Stars
-                </h1>
                 <p class="leading-relaxed">
-                  Photo booth fam kinfolk cold-pressed sriracha leggings
-                  jianbing microdosing tousled waistcoat.
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Consequuntur magni, nihil quaerat quibusdam deleniti fugiat.
                 </p>
               </div>
             </div>
@@ -43,16 +36,13 @@ const Gallery = () => {
                 class="absolute inset-0 w-full h-full object-cover object-center"
                 src="https://dummyimage.com/601x361"
               />
-              <div class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
-                <h2 class="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">
-                  THE SUBTITLE
+              <div class="px-8 py-10 relative z-10 w-full border-4 border-gold bg-mate opacity-0 hover:opacity-100">
+                <h2 class="tracking-widest text-md title-font font-lg text-gold mb-6">
+                  Lorem, ipsum dolor.
                 </h2>
-                <h1 class="title-font text-lg font-medium text-gray-900 mb-3">
-                  The Catalyzer
-                </h1>
                 <p class="leading-relaxed">
-                  Photo booth fam kinfolk cold-pressed sriracha leggings
-                  jianbing microdosing tousled waistcoat.
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Consequuntur magni, nihil quaerat quibusdam deleniti fugiat.
                 </p>
               </div>
             </div>
@@ -64,16 +54,13 @@ const Gallery = () => {
                 class="absolute inset-0 w-full h-full object-cover object-center"
                 src="https://dummyimage.com/603x363"
               />
-              <div class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
-                <h2 class="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">
-                  THE SUBTITLE
+              <div class="px-8 py-10 relative z-10 w-full border-4 border-gold bg-mate opacity-0 hover:opacity-100">
+                <h2 class="tracking-widest text-md title-font font-lg text-gold mb-6">
+                  Lorem, ipsum dolor.
                 </h2>
-                <h1 class="title-font text-lg font-medium text-gray-900 mb-3">
-                  The 400 Blows
-                </h1>
                 <p class="leading-relaxed">
-                  Photo booth fam kinfolk cold-pressed sriracha leggings
-                  jianbing microdosing tousled waistcoat.
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Consequuntur magni, nihil quaerat quibusdam deleniti fugiat.
                 </p>
               </div>
             </div>
@@ -85,16 +72,13 @@ const Gallery = () => {
                 class="absolute inset-0 w-full h-full object-cover object-center"
                 src="https://dummyimage.com/602x362"
               />
-              <div class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
-                <h2 class="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">
-                  THE SUBTITLE
+              <div class="px-8 py-10 relative z-10 w-full border-4 border-gold bg-mate opacity-0 hover:opacity-100">
+                <h2 class="tracking-widest text-md title-font font-lg text-gold mb-6">
+                  Lorem, ipsum dolor.
                 </h2>
-                <h1 class="title-font text-lg font-medium text-gray-900 mb-3">
-                  Neptune
-                </h1>
                 <p class="leading-relaxed">
-                  Photo booth fam kinfolk cold-pressed sriracha leggings
-                  jianbing microdosing tousled waistcoat.
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Consequuntur magni, nihil quaerat quibusdam deleniti fugiat.
                 </p>
               </div>
             </div>
@@ -106,16 +90,13 @@ const Gallery = () => {
                 class="absolute inset-0 w-full h-full object-cover object-center"
                 src="https://dummyimage.com/605x365"
               />
-              <div class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
-                <h2 class="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">
-                  THE SUBTITLE
+              <div class="px-8 py-10 relative z-10 w-full border-4 border-gold bg-mate opacity-0 hover:opacity-100">
+                <h2 class="tracking-widest text-md title-font font-lg text-gold mb-6">
+                  Lorem, ipsum dolor.
                 </h2>
-                <h1 class="title-font text-lg font-medium text-gray-900 mb-3">
-                  Holden Caulfield
-                </h1>
                 <p class="leading-relaxed">
-                  Photo booth fam kinfolk cold-pressed sriracha leggings
-                  jianbing microdosing tousled waistcoat.
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Consequuntur magni, nihil quaerat quibusdam deleniti fugiat.
                 </p>
               </div>
             </div>
@@ -127,21 +108,21 @@ const Gallery = () => {
                 class="absolute inset-0 w-full h-full object-cover object-center"
                 src="https://dummyimage.com/606x366"
               />
-              <div class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
-                <h2 class="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">
-                  THE SUBTITLE
+              <div class="px-8 py-10 relative z-10 w-full border-4 border-gold bg-mate opacity-0 hover:opacity-100">
+                <h2 class="tracking-widest text-md title-font font-lg text-gold mb-6">
+                  Lorem, ipsum dolor.
                 </h2>
-                <h1 class="title-font text-lg font-medium text-gray-900 mb-3">
-                  Alper Kamu
-                </h1>
                 <p class="leading-relaxed">
-                  Photo booth fam kinfolk cold-pressed sriracha leggings
-                  jianbing microdosing tousled waistcoat.
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Consequuntur magni, nihil quaerat quibusdam deleniti fugiat.
                 </p>
               </div>
             </div>
           </div>
         </div>
+        <button class="flex mx-auto mt-12 border-none text-white bg-transparent border-2 border-gold px-6 focus:outline-none text-4xl font-semibold transition ease-in-out delay-100 hover:-translate-y-1 hover:scale-110">
+          <img className="w-10 h-10" src={arrow} alt="icon" />
+        </button>
       </div>
     </section>
   );
