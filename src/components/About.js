@@ -3,7 +3,7 @@ import arrow from "../assets/down.svg";
 
 const About = () => {
   return (
-    <div className="font-lato bg-mate">
+    <div className="font-lato bg-mate3">
       <h2 className="flex justify-start font-semibold text-4xl p-3 pb-6 text-white">
         Acerca de
       </h2>

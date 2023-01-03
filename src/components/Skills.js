@@ -8,11 +8,12 @@ import mongo from "../assets/mongo.svg";
 import nodejs from "../assets/node-js.svg";
 import react from "../assets/reacts.svg";
 import arrow from "../assets/down.svg";
+import ex from "../assets/express.svg";
 
 const Skills = () => {
   return (
-    <div className="bg-mate font-lato w-full">
-      <h2 className=" text-white flex justify-center py-10 font-semibold text-3xl">
+    <div className="bg-mate3 font-lato w-full">
+      <h2 className=" text-white flex justify-center py-6 font-semibold text-3xl">
         Mis Skills
       </h2>
       <div className="w-full">
@@ -50,6 +51,8 @@ const Skills = () => {
               JavaScript
             </p>
           </div>
+        </div>
+        <div className="flex justify-center relative py-6 md:space-x-16 lg:space-x-44">
           <div className="relative flex justify-center bg-transparent px-8 rounded-lg md:hover:bg-obscure lg:hover:bg-obscure">
             <img
               className="ml-auto mr-auto my-7"
@@ -59,6 +62,28 @@ const Skills = () => {
             />
             <p className="absolute left-0 right-0 bottom-0 text-white font-merriweather font-semibold text-center">
               React
+            </p>
+          </div>
+          <div className="relative flex justify-center bg-transparent px-8 rounded-lg md:hover:bg-obscure lg:hover:bg-obscure">
+            <img
+              className="ml-auto mr-auto my-7"
+              src={mongo}
+              width="150px"
+              alt="icon"
+            />
+            <p className="absolute left-0 right-0 bottom-0 text-white font-merriweather font-semibold text-center">
+              MongoDB
+            </p>
+          </div>
+          <div className="relative flex justify-center bg-transparent px-8 rounded-lg md:hover:bg-obscure lg:hover:bg-obscure">
+            <img
+              className="ml-auto mr-auto my-7"
+              src={ex}
+              width="150px"
+              alt="icon"
+            />
+            <p className="absolute left-0 right-0 bottom-0 text-white font-merriweather font-semibold text-center">
+              Express
             </p>
           </div>
         </div>
@@ -72,17 +97,6 @@ const Skills = () => {
             />
             <p className="absolute left-0 right-0 bottom-0 text-white font-merriweather font-semibold text-center">
               Node.js
-            </p>
-          </div>
-          <div className="relative flex justify-center bg-transparent px-8 rounded-lg md:hover:bg-obscure lg:hover:bg-obscure">
-            <img
-              className="ml-auto mr-auto my-7"
-              src={mongo}
-              width="150px"
-              alt="icon"
-            />
-            <p className="absolute left-0 right-0 bottom-0 text-white font-merriweather font-semibold text-center">
-              MongoDB
             </p>
           </div>
           <div className="relative flex justify-center bg-transparent px-8 rounded-lg md:hover:bg-obscure lg:hover:bg-obscure">

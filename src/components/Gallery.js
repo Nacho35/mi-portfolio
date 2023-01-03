@@ -3,11 +3,11 @@ import arrow from "../assets/down.svg";
 
 const Gallery = () => {
   return (
-    <section class="text-gold font-lato font-semibold bg-mate">
+    <section class="text-gold font-lato font-semibold bg-mate3">
       <div class="container px-5 py-10 mx-auto">
         <div class="flex flex-col text-center w-full mb-16">
           <h1 class="sm:text-3xl text-3xl font-lg title-font mb-4 text-white">
-            Mis Proyectos
+            Portfolio
           </h1>
         </div>
         <div class="flex flex-wrap -m-4">
@@ -119,11 +119,14 @@ const Gallery = () => {
               </div>
             </div>
           </div>
+          <button class="flex mx-auto mt-20  text-gold bg-transparent border-2 border-gold rounded border-solid py-2 px-6 focus:outline-none text-lg font-semibold hover:text-mate hover:bg-gold">
+            Descargar CV
+          </button>
         </div>
-        <button class="flex mx-auto mt-12 border-none text-white bg-transparent border-2 border-gold px-6 focus:outline-none text-4xl font-semibold transition ease-in-out delay-100 hover:-translate-y-1 hover:scale-110">
-          <img className="w-10 h-10" src={arrow} alt="icon" />
-        </button>
       </div>
+      <button class="flex mx-auto mt-12 border-none text-white bg-transparent border-2 border-gold px-6 focus:outline-none text-4xl font-semibold transition ease-in-out delay-100 hover:-translate-y-1 hover:scale-110">
+        <img className="w-10 h-10" src={arrow} alt="icon" />
+      </button>
     </section>
   );
 };

@@ -5,7 +5,7 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   return (
     <div>
-      <nav className="font-lato font-semibold bg-mate">
+      <nav className="font-lato font-semibold bg-mate3">
         <div className="max-w-full mr-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-center h-16 space-x-2 lg:grid grid-cols-2">
             <a
