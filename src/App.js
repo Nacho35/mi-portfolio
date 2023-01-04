@@ -5,6 +5,7 @@ import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 import Skills from "./components/Skills";
 import Gallery from "./components/Gallery";
+import Form from "./components/Form";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <About />
       <Skills />
       <Gallery />
+      <Form />
     </>
   );
 }

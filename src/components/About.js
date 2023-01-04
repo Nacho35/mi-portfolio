@@ -4,7 +4,7 @@ import arrow from "../assets/down.svg";
 const About = () => {
   return (
     <div className="font-lato bg-mate3">
-      <h2 className="flex justify-start font-semibold text-4xl p-3 pb-6 text-white">
+      <h2 className="flex justify-center font-semibold text-4xl p-3 pb-6 text-white">
         Acerca de
       </h2>
       <p className="flex text-justify mx-5 font-semibold text-gold ml-2 text-base">
@@ -20,7 +20,7 @@ const About = () => {
         doloremque qui est similique soluta? Deleniti necessitatibus repellat
         enim natus sit, sunt iusto atque. Rerum enim porro tempora.
       </p>
-      <button class="flex mx-auto mt-12 border-none text-white bg-transparent border-2 border-gold px-6 focus:outline-none text-4xl font-semibold transition ease-in-out delay-100 hover:-translate-y-1 hover:scale-110">
+      <button className="flex mx-auto mt-12 border-none text-white bg-transparent border-2 border-gold px-6 focus:outline-none text-4xl font-semibold transition ease-in-out delay-100 hover:-translate-y-1 hover:scale-110">
         <img className="w-10 h-10" src={arrow} alt="icon" />
       </button>
     </div>
