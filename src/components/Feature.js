@@ -2,6 +2,7 @@ import React from "react";
 import world from "../assets/world.svg";
 import user from "../assets/user.svg";
 import tech from "../assets/laptop.svg";
+import arrow from "../assets/down.svg";
 
 const Feature = () => {
   return (
@@ -49,8 +50,8 @@ const Feature = () => {
             </p>
           </div>
         </div>
-        <button className="flex mx-auto mt-20  text-gold bg-transparent border-2 border-gold rounded border-solid py-2 px-6 focus:outline-none text-lg font-semibold hover:text-mate hover:bg-gold">
-          Continuar
+        <button className="flex mx-auto mt-12 border-none text-white bg-transparent border-2 border-gold px-6 focus:outline-none text-4xl font-semibold transition ease-in-out delay-100 hover:-translate-y-1 hover:scale-110">
+          <img className="w-10 h-10" src={arrow} alt="icon" />
         </button>
       </div>
     </section>

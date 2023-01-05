@@ -1,29 +1,44 @@
 import React from "react";
 import arrow from "../assets/down.svg";
+import me from "../assets/yo.jpg";
 
 const About = () => {
   return (
-    <div className="font-lato bg-mate3">
-      <h2 className="flex justify-center font-semibold text-4xl p-3 pb-6 text-white">
-        Acerca de
-      </h2>
-      <p className="flex text-justify mx-5 font-semibold text-gold ml-2 text-base">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis labore rem
-        quibusdam deserunt possimus est hic, fuga eveniet quidem cumque, impedit
-        maiores qui unde, incidunt distinctio neque minima repellendus
-        veritatis. Quibusdam minima aliquam natus blanditiis ratione, alias
-        rerum praesentium necessitatibus facere, tempore rem voluptates ad
-        voluptatem aperiam non voluptatibus aspernatur omnis cum. Accusamus
-        magnam perspiciatis ex, autem debitis facilis dicta soluta rem, harum
-        nemo odio aliquid molestiae asperiores architecto unde in dignissimos,
-        fugiat incidunt sed sint quisquam possimus veniam mollitia atque! Eaque
-        doloremque qui est similique soluta? Deleniti necessitatibus repellat
-        enim natus sit, sunt iusto atque. Rerum enim porro tempora.
-      </p>
+    <section className="bg-mate3 font-lato">
+      <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+        <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-justify mb-16 md:mb-0 items-center text-center">
+          <h1 className="sm:text-4xl text-3xl mb-4 font-semibold text-white">
+            Acerca de
+          </h1>
+          <p className="mb-8 leading-relaxed text-gold font-semibold">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic, atque
+            veritatis facere neque aliquam provident? Sapiente, quisquam?
+            Explicabo mollitia accusamus qui excepturi doloremque harum, dicta
+            beatae nobis? Asperiores fugiat sunt facere dolore nulla laborum
+            consequatur. Beatae aspernatur sapiente commodi? Dolorum aspernatur
+            accusantium dicta dignissimos nisi! Rem alias eius placeat
+            molestiae? Quasi dignissimos fugit quo, eligendi architecto ex
+            expedita, unde consectetur nemo magni temporibus perferendis
+            veritatis, reiciendis nobis ab porro perspiciatis.
+          </p>
+          <div className="flex justify-center">
+            <button className="flex mx-auto text-gold bg-transparent border-2 border-gold rounded border-solid py-2 px-6 focus:outline-none text-lg font-semibold hover:text-mate hover:bg-gold">
+              Continuar
+            </button>
+          </div>
+        </div>
+        <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+          <img
+            className="object-cover object-center rounded-lg"
+            alt="hero"
+            src={me}
+          />
+        </div>
+      </div>
       <button className="flex mx-auto mt-12 border-none text-white bg-transparent border-2 border-gold px-6 focus:outline-none text-4xl font-semibold transition ease-in-out delay-100 hover:-translate-y-1 hover:scale-110">
         <img className="w-10 h-10" src={arrow} alt="icon" />
       </button>
-    </div>
+    </section>
   );
 };
 

@@ -13,7 +13,7 @@ import ex from "../assets/express.svg";
 const Skills = () => {
   return (
     <div className="bg-mate3 font-lato w-full">
-      <h2 className=" text-white flex justify-center py-6 font-semibold text-3xl">
+      <h2 className=" text-white flex justify-center font-semibold text-3xl">
         Mis Skills
       </h2>
       <div className="w-full">

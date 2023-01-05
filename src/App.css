@@ -1,9 +1,3 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-@font-face {
-  font-family: helv;
-  src: url("./font/Helv Children.otf");
-  font-weight: bold;
-}
