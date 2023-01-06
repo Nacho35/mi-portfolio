@@ -15,7 +15,7 @@ const Navbar = () => {
           </a>
           <div className="flex items-center lg:grid grid-cols-1">
             <div className="hidden md:block">
-              <div className="ml-16 flex items-center flex-row space-x-4 lg:flex lg:items-center">
+              <div className="ml-16 flex justify-center flex-row space-x-4 lg:flex lg:items-center">
                 <a
                   href="#"
                   className="text-gold hover:bg-gold hover:text-mate px-3 py-2 rounded-md text-xl lg:hover:bg-transparent lg:hover:text-white">
