@@ -6,9 +6,7 @@ const Gallery = () => {
     <section className="text-gold font-lato font-semibold bg-mate3">
       <div className="container px-5 py-10 mx-auto">
         <div className="flex flex-col text-center w-full mb-16">
-          <h2 className="sm:text-3xl text-3xl font-lg title-font mb-4 text-white">
-            Portfolio
-          </h2>
+          <h2 className="text-3xl mb-4 text-white">Portfolio</h2>
         </div>
         <div className="flex flex-wrap -m-4">
           <div className="lg:w-1/3 sm:w-1/2 p-4">
@@ -119,9 +117,12 @@ const Gallery = () => {
               </div>
             </div>
           </div>
-          <button className="flex mx-auto mt-20  text-gold bg-transparent border-2 border-gold rounded border-solid py-2 px-6 focus:outline-none text-lg font-semibold hover:text-mate hover:bg-gold">
+          <a
+            href="https://drive.google.com/file/d/13kIAPHqpxjyujXM8VdOwtFvzxqoT87MU/view?usp=share_link"
+            target="_blank"
+            className="flex mx-auto mt-20 text-gold bg-transparent border-2 border-gold rounded border-solid py-2 px-6 focus:outline-none text-lg font-semibold hover:text-mate hover:bg-gold">
             Descargar CV
-          </button>
+          </a>
         </div>
       </div>
       <button className="flex mx-auto mt-12 border-none text-white bg-transparent border-2 border-gold px-6 focus:outline-none text-4xl font-semibold transition ease-in-out delay-100 hover:-translate-y-1 hover:scale-110">
