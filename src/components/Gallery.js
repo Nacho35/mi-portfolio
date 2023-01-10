@@ -120,6 +120,7 @@ const Gallery = () => {
           <a
             href="https://drive.google.com/file/d/13kIAPHqpxjyujXM8VdOwtFvzxqoT87MU/view?usp=share_link"
             target="_blank"
+            rel="noopener noreferrer"
             className="flex mx-auto mt-20 text-gold bg-transparent border-2 border-gold rounded border-solid py-2 px-6 focus:outline-none text-lg font-semibold hover:text-mate hover:bg-gold">
             Descargar CV
           </a>

@@ -46,24 +46,28 @@ const Footer = () => {
         <a
           href="https://www.instagram.com/nacho_ignacio3/"
           target="_blank"
+          rel="noopener noreferrer"
           className="flex flex-col mx-4 justify-center md:w-20 lg:w-20">
           <img src={insta} alt="" width="150px" />
         </a>
         <a
           href="https://wa.me/5492224456653"
           target="_blank"
+          rel="noopener noreferrer"
           className="flex flex-col mx-4 justify-center md:w-20 lg:w-20">
           <img src={whatsapp} alt="" width="150px" />
         </a>
         <a
           href="https://www.linkedin.com/in/ignacio-morales35/"
           target="_blank"
+          rel="noopener noreferrer"
           className="flex flex-col mx-4 justify-center md:w-20 lg:w-20">
           <img src={linkedin} alt="" width="150px" />
         </a>
         <a
           href="https://github.com/Nacho35"
           target="_blank"
+          rel="noopener noreferrer"
           className="flex flex-col mx-4 justify-center md:w-20 lg:w-20">
           <img src={github2} alt="" width="150px" />
         </a>
