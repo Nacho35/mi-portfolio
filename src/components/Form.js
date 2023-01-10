@@ -8,7 +8,7 @@ const Form = () => {
           <h1 className="text-3xl mb-4 text-white font-semibold">Contacto</h1>
         </div>
         <div className="lg:w-1/2 md:w-2/3 mx-auto">
-          <div className="flex flex-wrap -m-2">
+          <form className="flex flex-wrap -m-2">
             <div className="p-2 w-1/2">
               <div className="relative">
                 <label
@@ -61,7 +61,7 @@ const Form = () => {
                 Enviar
               </button>
             </div>
-          </div>
+          </form>
         </div>
       </div>
     </section>
