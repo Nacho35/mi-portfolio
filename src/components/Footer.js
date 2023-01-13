@@ -17,7 +17,7 @@ const Footer = () => {
         <div className="px-14 flex justify-center py-4 md:p-5">
           <div className="flex flex-row items-center py-4 px-4 bg-mate rounded-lg">
             <img src={mail} alt="email" width="35px" />
-            <h2 className="flex font-lato font-semibold text-gold hover:text-white py-2 mx-4 md:mx-auto lg:mx-4">
+            <h2 className="flex font-lato cursor-default font-semibold text-gold hover:text-white py-2 mx-4 md:mx-auto lg:mx-4">
               ignacioevil@gmail.com
             </h2>
           </div>
@@ -25,7 +25,7 @@ const Footer = () => {
         <div className="px-14 flex justify-center py-4 md:p-5">
           <div className="flex flex-row items-center py-4 px-4 bg-mate rounded-lg">
             <img src={phone} alt="telefono" width="35px" />
-            <h2 className="flex font-lato font-semibold text-gold hover:text-white py-2 mx-6 md:mx-auto lg:mx-4">
+            <h2 className="flex font-lato cursor-default font-semibold text-gold hover:text-white py-2 mx-6 md:mx-auto lg:mx-4">
               +54 9 2224 45-6653
             </h2>
           </div>
@@ -33,7 +33,7 @@ const Footer = () => {
         <div className="px-14 flex justify-center py-4 md:p-5">
           <div className="flex flex-row items-center py-4 px-4 bg-mate rounded-lg">
             <img src={map} alt="ubicacion" width="35px" />
-            <h2 className="flex font-lato font-semibold text-gold hover:text-white py-2 mx-8 md:mx-auto lg:mx-4">
+            <h2 className="flex font-lato cursor-default font-semibold text-gold hover:text-white py-2 mx-8 md:mx-auto lg:mx-4">
               Bs As, San Vicente
             </h2>
           </div>
