@@ -8,6 +8,11 @@ const Feature = () => {
   return (
     <section className="text-gold font-lato font-semibold bg-mate3">
       <div className="container px-5 py-24 mx-auto">
+        <div className="w-full flex justify-center mb-14">
+          <h2 className=" text-white flex justify-center font-semibold text-3xl">
+            Mis Características
+          </h2>
+        </div>
         <div className="flex items-center lg:w-3/5 mx-auto border-b pb-10 mb-10 border-gold sm:flex-row flex-col">
           <div className="sm:w-32 sm:h-32 h-20 w-20 sm:mr-10 inline-flex items-center justify-center rounded-full flex-shrink-0">
             <img className="w-20 h-20" src={world} alt="icon" />
