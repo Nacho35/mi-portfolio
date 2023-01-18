@@ -9,14 +9,15 @@ import nodejs from "../assets/node-js.svg";
 import react from "../assets/reacts.svg";
 import arrow from "../assets/down.svg";
 import ex from "../assets/express.svg";
+import { Link } from "react-router-dom";
 
 const Skills = () => {
   return (
-    <div className="bg-mate3 font-lato w-full">
-      <h2 className=" text-white flex justify-center font-semibold text-3xl">
+    <section className="bg-mate3 font-lato w-full">
+      <h2 className=" text-white flex justify-center py-2 font-semibold text-3xl">
         Mis Skills
       </h2>
-      <div className="w-full">
+      <div className="w-full min-h-fit lg:min-h-screen lg:py-4 md:min-h-screen md:py-4">
         <div className="flex justify-center py-6 md:space-x-16 lg:space-x-44">
           <div className="relative flex justify-center bg-transparent px-8 rounded-lg md:hover:bg-obscure lg:hover:bg-obscure">
             <img
@@ -123,10 +124,12 @@ const Skills = () => {
           </div>
         </div>
       </div>
-      <button className="flex mx-auto mt-12 border-none text-white bg-transparent border-2 border-gold px-6 focus:outline-none text-4xl font-semibold transition ease-in-out delay-100 hover:-translate-y-1 hover:scale-110">
+      <Link
+        to="/gallery"
+        className="flex justify-center mx-auto mt-12 border-none text-white bg-transparent border-2 border-gold px-6 focus:outline-none text-4xl font-semibold transition ease-in-out delay-100 hover:-translate-y-1 hover:scale-110">
         <img className="w-10 h-10" src={arrow} alt="icon" />
-      </button>
-    </div>
+      </Link>
+    </section>
   );
 };
 

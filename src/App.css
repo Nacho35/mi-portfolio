@@ -9,3 +9,8 @@
   font-weight: 500;
   margin-top: 1%;
 }
+
+:root {
+  overflow-x: hidden;
+  box-sizing: border-box;
+}

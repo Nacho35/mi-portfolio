@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
-    <section className="font-lato relative w-full h-auto">
+    <section className="font-lato relative w-full min-h-full">
       <video src={bg} autoPlay loop muted></video>
       <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center absolute justify-center bottom-0 top-0 left-0 right-0 lg:absolute lg:bottom-0 lg:top-0 lg:left-0 lg:right-0">
         <div className="lg:flex-grow lg:items-center md:w-full flex flex-col md:items-center md:text-center items-center text-center">

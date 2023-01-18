@@ -1,10 +1,11 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import arrow from "../assets/down.svg";
 
 const Gallery = () => {
   return (
     <section className="text-gold font-lato font-semibold bg-mate3">
-      <div className="container px-5 py-10 mx-auto">
+      <div className="container px-5 py-10 w-full min-h-fit lg:min-h-screen lg:py-16 md:min-h-screen md:py-16 mx-auto">
         <div className="flex flex-col text-center w-full mb-16">
           <h2 className="text-3xl mb-4 text-white">Portfolio</h2>
         </div>
@@ -126,9 +127,11 @@ const Gallery = () => {
           </a>
         </div>
       </div>
-      <button className="flex mx-auto mt-12 border-none text-white bg-transparent border-2 border-gold px-6 focus:outline-none text-4xl font-semibold transition ease-in-out delay-100 hover:-translate-y-1 hover:scale-110">
+      <Link
+        to="/form"
+        className="flex justify-center mx-auto mt-12 border-none text-white bg-transparent border-2 border-gold px-6 focus:outline-none text-4xl font-semibold transition ease-in-out delay-100 hover:-translate-y-1 hover:scale-110">
         <img className="w-10 h-10" src={arrow} alt="icon" />
-      </button>
+      </Link>
     </section>
   );
 };

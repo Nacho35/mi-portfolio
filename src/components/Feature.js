@@ -3,11 +3,12 @@ import world from "../assets/world.svg";
 import user from "../assets/user.svg";
 import tech from "../assets/laptop.svg";
 import arrow from "../assets/down.svg";
+import { Link } from "react-router-dom";
 
 const Feature = () => {
   return (
     <section className="text-gold font-lato font-semibold bg-mate3">
-      <div className="container px-5 py-24 mx-auto">
+      <div className="container px-5 py-24 mx-auto w-full min-h-fit lg:min-h-screen lg:py-4 md:min-h-screen md:py-4">
         <div className="w-full flex justify-center mb-14">
           <h2 className=" text-white flex justify-center font-semibold text-3xl">
             Mis Características
@@ -55,9 +56,11 @@ const Feature = () => {
             </p>
           </div>
         </div>
-        <button className="flex mx-auto mt-12 border-none text-white bg-transparent border-2 border-gold px-6 focus:outline-none text-4xl font-semibold transition ease-in-out delay-100 hover:-translate-y-1 hover:scale-110">
+        <Link
+          to="/skills"
+          className="flex justify-center mx-auto mt-12 border-none text-white bg-transparent border-2 border-gold px-6 focus:outline-none text-4xl font-semibold transition ease-in-out delay-100 hover:-translate-y-1 hover:scale-110">
           <img className="w-10 h-10" src={arrow} alt="icon" />
-        </button>
+        </Link>
       </div>
     </section>
   );

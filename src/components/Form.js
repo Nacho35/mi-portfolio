@@ -8,7 +8,7 @@ const Form = () => {
 
   return (
     <section className="text-white font-lato bg-mate3 relative">
-      <div className="container px-5 py-24 mx-auto">
+      <div className="container px-5 w-full min-h-screen lg:min-h-screen lg:py-16 md:min-h-screen md:py-16 mx-auto">
         <div className="flex flex-col text-center w-full mb-12">
           <h1 className="text-3xl mb-4 text-white font-semibold">Contacto</h1>
         </div>

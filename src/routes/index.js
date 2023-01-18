@@ -5,13 +5,13 @@ import Feature from "../components/Feature";
 import Gallery from "../components/Gallery";
 import Form from "../components/Form";
 import Skills from "../components/Skills";
-import Home from "../components/Home";
+import Index from "../components/Index";
 
 const index = () => {
   return (
     <HashRouter>
       <Routes>
-        <Route path="/" element={<Home />} exact />
+        <Route path="/" element={<Index />} exact />
         <Route path="/about" element={<About />} />
         <Route path="/feature" element={<Feature />} />
         <Route path="/gallery" element={<Gallery />} />

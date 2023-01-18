@@ -9,7 +9,7 @@ import github2 from "../assets/github2.svg";
 
 const Footer = () => {
   return (
-    <footer className="font-lato bg-mate3 w-full ">
+    <footer className="font-lato bg-mate3 w-full min-h-fit">
       <div className="flex flex-col w-full justify-center">
         <h2 className="border border-solid border-gold "></h2>
       </div>
