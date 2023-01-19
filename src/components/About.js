@@ -4,9 +4,9 @@ import me from "../assets/yo.jpg";
 
 const About = () => {
   return (
-    <section className="bg-mate3 font-lato w-full min-h-fit lg:min-h-screen lg:py-16 md:min-h-screen md:py-16">
-      <div className="container mx-auto flex px-5 md:flex-row flex-col items-center">
-        <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-justify mb-16 py-4 lg:my-24 md:mb-auto items-center text-center">
+    <section className="bg-mate3 font-lato w-full min-h-screen py-4 lg:min-h-screen lg:pt-4 md:min-h-screen md:pt-4">
+      <div className="container max-h-fit w-full mx-auto flex px-5 md:flex-col flex-col items-center lg:flex-row md:flex md:text-center">
+        <div className="lg:flex-grow md:w-full lg:pr-24 md:pt-14 flex flex-col md:items-center lg:items-start md:text-justify mb-16 py-4 lg:my-24 md:mb-auto items-center text-center">
           <h1 className="sm:text-4xl text-3xl mb-4 font-semibold text-white">
             Acerca de
           </h1>
@@ -29,7 +29,7 @@ const About = () => {
             </Link>
           </div>
         </div>
-        <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+        <div className="lg:max-w-lg lg:w-full md:w-3/4/2 md:flex md:justify-center md:pt-28 w-5/6">
           <img
             className="object-cover object-center rounded-lg"
             alt="hero"

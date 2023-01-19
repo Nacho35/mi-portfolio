@@ -9,15 +9,15 @@ import github2 from "../assets/github2.svg";
 
 const Footer = () => {
   return (
-    <footer className="font-lato bg-mate3 w-full min-h-fit">
-      <div className="flex flex-col w-full justify-center">
+    <footer className="font-lato bg-mate3 w-full h-auto pt-10">
+      <div className="flex flex-col justify-center w-full h-auto ">
         <h2 className="border border-solid border-gold "></h2>
       </div>
       <div className="md:flex md:flex-row md:justify-center md:py-4">
         <div className="px-14 flex justify-center py-4 md:p-5">
           <div className="flex flex-row items-center py-4 px-4 bg-mate rounded-lg">
             <img src={mail} alt="email" width="35px" />
-            <h2 className="flex font-lato cursor-default font-semibold text-gold hover:text-white py-2 mx-4 md:mx-auto lg:mx-4">
+            <h2 className="flex font-lato cursor-default font-semibold text-gold hover:text-white py-2 mx-auto md:mx-auto lg:mx-auto">
               ignacioevil@gmail.com
             </h2>
           </div>
@@ -25,7 +25,7 @@ const Footer = () => {
         <div className="px-14 flex justify-center py-4 md:p-5">
           <div className="flex flex-row items-center py-4 px-4 bg-mate rounded-lg">
             <img src={phone} alt="telefono" width="35px" />
-            <h2 className="flex font-lato cursor-default font-semibold text-gold hover:text-white py-2 mx-6 md:mx-auto lg:mx-4">
+            <h2 className="flex font-lato cursor-default font-semibold text-gold hover:text-white py-2 mx-auto md:mx-auto lg:mx-auto">
               +54 9 2224 45-6653
             </h2>
           </div>
@@ -33,7 +33,7 @@ const Footer = () => {
         <div className="px-14 flex justify-center py-4 md:p-5">
           <div className="flex flex-row items-center py-4 px-4 bg-mate rounded-lg">
             <img src={map} alt="ubicacion" width="35px" />
-            <h2 className="flex font-lato cursor-default font-semibold text-gold hover:text-white py-2 mx-8 md:mx-auto lg:mx-4">
+            <h2 className="flex font-lato cursor-default font-semibold text-gold hover:text-white py-2 mx-auto md:mx-auto lg:mx-auto">
               Bs As, San Vicente
             </h2>
           </div>

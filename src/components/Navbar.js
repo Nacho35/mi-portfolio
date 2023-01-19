@@ -20,7 +20,7 @@ const Navbar = () => {
                 <NavLink
                   to="/about"
                   className="text-gold hover:bg-gold hover:text-mate px-3 py-2 rounded-md text-xl lg:hover:bg-transparent lg:hover:text-white">
-                  Acerca de
+                  Acerca
                 </NavLink>
                 <NavLink
                   to="/skills"
@@ -97,7 +97,7 @@ const Navbar = () => {
               <NavLink
                 to="/about"
                 className="text-gold hover:bg-gold hover:text-mate block px-2 py-4 rounded-md text-xl">
-                Acerca de
+                Acerca
               </NavLink>
               <NavLink
                 to="/skills"

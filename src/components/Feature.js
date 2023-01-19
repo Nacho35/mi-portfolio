@@ -7,8 +7,8 @@ import { Link } from "react-router-dom";
 
 const Feature = () => {
   return (
-    <section className="text-gold font-lato font-semibold bg-mate3">
-      <div className="container px-5 py-24 mx-auto w-full min-h-fit lg:min-h-screen lg:py-4 md:min-h-screen md:py-4">
+    <section className="text-gold font-lato font-semibold bg-mate3 w-full md:h-auto">
+      <div className="container px-5 py-16 mx-auto w-full lg:min-h-screen md:min-h-screen">
         <div className="w-full flex justify-center mb-14">
           <h2 className=" text-white flex justify-center font-semibold text-3xl">
             Mis Características
@@ -58,7 +58,7 @@ const Feature = () => {
         </div>
         <Link
           to="/skills"
-          className="flex justify-center mx-auto mt-12 border-none text-white bg-transparent border-2 border-gold px-6 focus:outline-none text-4xl font-semibold transition ease-in-out delay-100 hover:-translate-y-1 hover:scale-110">
+          className="flex justify-center mx-auto mt-16 border-none text-white bg-transparent border-2 border-gold px-6 focus:outline-none text-4xl font-semibold transition ease-in-out delay-100 hover:-translate-y-1 hover:scale-110">
           <img className="w-10 h-10" src={arrow} alt="icon" />
         </Link>
       </div>
