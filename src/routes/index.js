@@ -1,5 +1,5 @@
 import React from "react";
-import { HashRouter, Route, Routes, Navigate } from "react-router-dom";
+import { Route, Routes, Navigate, BrowserRouter } from "react-router-dom";
 import About from "../components/About";
 import Feature from "../components/Feature";
 import Gallery from "../components/Gallery";
@@ -9,7 +9,7 @@ import Index from "../components/Index";
 
 const index = () => {
   return (
-    <HashRouter>
+    <BrowserRouter>
       <Routes>
         <Route path="/" element={<Index />} exact />
         <Route path="/about" element={<About />} />
@@ -19,7 +19,7 @@ const index = () => {
         <Route path="/skills" element={<Skills />} />
         <Route path="*" element={<Navigate replace to="/" />} />
       </Routes>
-    </HashRouter>
+    </BrowserRouter>
   );
 };
 
