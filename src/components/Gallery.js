@@ -7,7 +7,7 @@ const Gallery = () => {
     <section className="text-gold font-lato font-semibold bg-mate3 w-full min-h-screen lg:min-h-max md:min-h-max">
       <div className="container px-5 py-4 mx-auto w-full min-h-screen">
         <div className="flex flex-col text-center w-full mb-16">
-          <h2 className="text-3xl mb-4 text-white">Portfolio</h2>
+          <h2 className="text-3xl mb-4 text-white">Proyectos</h2>
         </div>
         <div className="flex flex-wrap -m-4">
           <div className="lg:w-1/3 sm:w-1/2 p-4">

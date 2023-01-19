@@ -15,7 +15,7 @@ const Skills = () => {
   return (
     <section className="bg-mate3 font-lato w-full min-h-screen md:min-h-screen lg:min-h-screen">
       <h2 className=" text-white flex justify-center py-2 font-semibold text-3xl">
-        Mis Skills
+        Habilidades
       </h2>
       <div className="w-full">
         <div className="flex justify-center py-6 md:space-x-16 lg:space-x-44">

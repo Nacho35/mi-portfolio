@@ -10,17 +10,17 @@ const Navbar = () => {
       <div className="max-w-full mr-auto px-4 sm:px-6">
         <div className="flex items-center justify-center h-16 lg:w-full lg:grid grid-cols-2">
           <NavLink
-            className="text-gold lg:flex justify-center hover:bg-gold hover:text-mate px-3 py-2 rounded-md text-xl lg:hover:bg-transparent lg:hover:text-white lg:text-center"
+            className="text-gold lg:flex justify-center hover:bg-gold hover:text-mate px-3 py-2 mr-8 rounded-md text-xl lg:hover:bg-transparent lg:hover:text-white lg:text-center"
             to="/">
-            Ignacio Morales
+            INM
           </NavLink>
           <div className="flex items-center lg:grid grid-cols-1">
             <div className="hidden md:block">
-              <div className="ml-16 flex justify-center flex-row space-x-4 lg:flex lg:items-center">
+              <div className="ml-4 flex justify-center flex-row space-x-4 lg:flex lg:items-center">
                 <NavLink
                   to="/about"
                   className="text-gold hover:bg-gold hover:text-mate px-3 py-2 rounded-md text-xl lg:hover:bg-transparent lg:hover:text-white">
-                  Acerca
+                  Acerca de
                 </NavLink>
                 <NavLink
                   to="/skills"
@@ -97,7 +97,7 @@ const Navbar = () => {
               <NavLink
                 to="/about"
                 className="text-gold hover:bg-gold hover:text-mate block px-2 py-4 rounded-md text-xl">
-                Acerca
+                Acerca de
               </NavLink>
               <NavLink
                 to="/skills"

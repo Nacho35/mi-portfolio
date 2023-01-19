@@ -8,24 +8,32 @@ const About = () => {
       <div className="container max-h-fit w-full mx-auto flex px-5 md:flex-col flex-col items-center lg:flex-row md:flex md:text-center">
         <div className="lg:flex-grow md:w-full lg:pr-24 md:pt-14 flex flex-col md:items-center lg:items-start md:text-justify mb-16 py-4 lg:my-24 md:mb-auto items-center text-center">
           <h1 className="sm:text-4xl text-3xl mb-4 font-semibold text-white">
-            Acerca de
+            Acerca de mí
           </h1>
           <p className="mb-8 leading-relaxed text-gold font-semibold">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic, atque
-            veritatis facere neque aliquam provident? Sapiente, quisquam?
-            Explicabo mollitia accusamus qui excepturi doloremque harum, dicta
-            beatae nobis? Asperiores fugiat sunt facere dolore nulla laborum
-            consequatur. Beatae aspernatur sapiente commodi? Dolorum aspernatur
-            accusantium dicta dignissimos nisi! Rem alias eius placeat
-            molestiae? Quasi dignissimos fugit quo, eligendi architecto ex
-            expedita, unde consectetur nemo magni temporibus perferendis
-            veritatis, reiciendis nobis ab porro perspiciatis.
+            Hola, mi nombre es Ignacio y soy un desarrollador apasionado por la
+            tecnología. Mi objetivo a largo plazo es seguir creciendo
+            profesionalmente en el desarrollo web, y en un futuro ingresar al
+            desarrollo de software. Mi meta es contribuir al desarrollo de
+            proyectos innovadores y útiles para la sociedad, y trabajar en
+            equipos multidisciplinarios para lograrlo. Mi historia con la
+            programación comenzó como adulto, me interesaba mucho cómo
+            funcionaba internet y cómo se creaban sitios web, entonces decidí
+            aprender HTML y CSS. Con el tiempo me di cuenta de que quería ir más
+            allá y empecé a aprender JavaScript, este fue el lenguaje que me
+            enamoró de la programación. Mi experiencia se centra en JavaScript,
+            React, HTML, CSS, Node.js, MongoDB y Express. Me considero una
+            persona empática, responsable y comprometida en cada proyecto en el
+            que participo. Disfruto de las pequeñas cosas de la vida y me
+            esfuerzo constantemente por mejorar mis habilidades y conocimientos
+            técnicos. Me considero una persona curiosa y siempre dispuesta a
+            aprender cosas nuevas.
           </p>
           <div className="flex justify-center">
             <Link
               to="/feature"
               className="flex mx-auto text-gold bg-transparent border-2 border-gold rounded border-solid py-2 px-6 focus:outline-none text-lg font-semibold hover:text-mate hover:bg-gold">
-              Continuar
+              Saber Mas!
             </Link>
           </div>
         </div>

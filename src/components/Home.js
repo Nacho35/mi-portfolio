@@ -21,7 +21,7 @@ const Home = () => {
               <Link
                 to="/form"
                 className="inline-flex border-2 border-gold rounded border-solid py-2 px-6 mb-2 focus:outline-none text-base lg:text-xl md:text-lg font-semibold text-mate bg-gold">
-                Contáctame
+                Contratar!
               </Link>
             </div>
           </div>
