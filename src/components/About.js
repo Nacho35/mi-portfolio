@@ -37,7 +37,7 @@ const About = () => {
             </Link>
           </div>
         </div>
-        <div className="lg:max-w-lg lg:w-full md:w-3/4/2 md:flex md:justify-center md:pt-28 w-5/6">
+        <div className="lg:max-w-lg lg:w-full md:w-3/4/2 md:flex md:justify-center md:pt-20 w-5/6">
           <img
             className="object-cover object-center rounded-lg"
             alt="hero"

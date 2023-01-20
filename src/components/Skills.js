@@ -14,7 +14,7 @@ import { Link } from "react-router-dom";
 const Skills = () => {
   return (
     <section className="bg-mate3 font-lato w-full min-h-screen md:min-h-screen lg:min-h-screen">
-      <h2 className=" text-white flex justify-center py-2 font-semibold text-3xl">
+      <h2 className=" text-white flex justify-center py-2 md:py-16 font-semibold text-3xl">
         Habilidades
       </h2>
       <div className="w-full">
@@ -123,12 +123,12 @@ const Skills = () => {
             </p>
           </div>
         </div>
+        <Link
+          to="/gallery"
+          className="flex justify-center mx-auto mt-12 border-none text-white bg-transparent border-2 border-gold px-6 focus:outline-none text-4xl font-semibold transition ease-in-out delay-100 hover:-translate-y-1 hover:scale-110">
+          <img className="w-12 h-12" src={arrow} alt="icon" />
+        </Link>
       </div>
-      <Link
-        to="/gallery"
-        className="flex justify-center mx-auto mt-12 border-none text-white bg-transparent border-2 border-gold px-6 focus:outline-none text-4xl font-semibold transition ease-in-out delay-100 hover:-translate-y-1 hover:scale-110">
-        <img className="w-10 h-10" src={arrow} alt="icon" />
-      </Link>
     </section>
   );
 };
