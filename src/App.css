@@ -2,15 +2,19 @@
 @tailwind components;
 @tailwind utilities;
 
+/** ROOT **/
+
+:root {
+  overflow-x: hidden;
+  box-sizing: border-box;
+}
+
+/*** Mensajes de error del Form ***/
+
 .error {
   color: red;
   font-family: merriweather;
   font-size: small;
   font-weight: 500;
   margin-top: 1%;
-}
-
-:root {
-  overflow-x: hidden;
-  box-sizing: border-box;
 }
