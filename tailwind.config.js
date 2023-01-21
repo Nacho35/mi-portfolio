@@ -1,6 +1,9 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./src/**/*.{js,jsx,ts,tsx}"],
+  content: [
+    "./src/**/*.{html,js}",
+    "./node_modules/tw-elements/dist/js/**/*.js",
+  ],
   theme: {
     colors: {
       transparent: "transparent",
@@ -28,5 +31,6 @@ module.exports = {
       merriweather: ["Merriweather", "serif"],
     },
   },
+  plugins: [require("tw-elements/dist/plugin")],
   extend: {},
 };
