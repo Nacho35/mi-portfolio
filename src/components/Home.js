@@ -11,7 +11,7 @@ const Home = () => {
         <motion.div
           initial={{ opacity: 0, scale: 1 }}
           animate={{ opacity: 1, x: 0, y: 0 }}
-          transition={{ delay: 0.5, duration: 3 }}
+          transition={{ delay: 1, duration: 3 }}
           className="lg:flex-grow lg:items-center md:w-full flex flex-col md:items-center md:text-center items-center text-center">
           <div className="text-base font-semibold text-white lg:text-3xl text-center md:text-2xl">
             Hola Soy!{" "}
@@ -22,13 +22,15 @@ const Home = () => {
             <h2 className="flex justify-center mb-8 leading-relaxed text-xl text-white font-semibold lg:text-4xl md:text-3xl">
               Full Stack Developer
             </h2>
-            <div className="flex justify-center">
+            <motion.div
+              whileHover={{ scale: 1.1 }}
+              className="flex justify-center">
               <Link
                 to="/form"
                 className="inline-flex border-2 border-gold rounded border-solid py-2 px-6 mb-2 focus:outline-none text-base lg:text-xl md:text-lg font-semibold text-mate bg-gold">
                 Contactame!
               </Link>
-            </div>
+            </motion.div>
           </div>
         </motion.div>
       </div>

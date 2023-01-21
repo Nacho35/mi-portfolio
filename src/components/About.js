@@ -13,16 +13,21 @@ const About = () => {
             animate={{
               opacity: 1,
               x: 0,
-              boxShadow: "10px 10px 0 rgba(0, 0, 0, 0.2)",
             }}
-            transition={{ duration: 2 }}
+            transition={{
+              type: "spring",
+              stiffness: 10,
+            }}
             className="sm:text-4xl text-3xl mb-4 font-semibold text-white">
             Acerca de mí
           </motion.h1>
           <motion.p
-            initial={{ opacity: 0, scale: 1, x: 1000 }}
-            animate={{ opacity: 1, x: 0 }}
-            transition={{ duration: 2 }}
+            initial={{ opacity: 0, scale: 1, y: 700 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{
+              type: "spring",
+              stiffness: 10,
+            }}
             className="mb-8 leading-relaxed text-gold font-semibold">
             Hola, mi nombre es Ignacio y soy un desarrollador apasionado por la
             tecnología. Mi objetivo a largo plazo es seguir creciendo
@@ -43,12 +48,14 @@ const About = () => {
             aprender cosas nuevas.
           </motion.p>
           <motion.div
-            initial={{ opacity: 0, x: 1000 }}
-            animate={{ opacity: 1, x: 0 }}
+            initial={{ opacity: 0, y: -700 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{
+              type: "spring",
+              stiffness: 12,
+            }}
             whileHover={{
               scale: 1.1,
-              boxShadow: "0px 0px 8px rgb(255,204,109)",
-              textShadow: "0px 0px 2px rgb(61, 62, 66)",
             }}
             className="flex justify-center">
             <Link
@@ -59,9 +66,13 @@ const About = () => {
           </motion.div>
         </div>
         <motion.div
-          initial={{ x: 1000 }}
+          initial={{ x: 700 }}
           animate={{ x: 0 }}
-          transition={{ delay: 0.5, type: "spring", duration: 4 }}
+          transition={{
+            type: "spring",
+            stiffness: 10,
+            delay: 0.5,
+          }}
           className="lg:max-w-lg lg:w-full md:w-3/4/2 md:flex md:justify-center md:pt-20 w-5/6">
           <img
             className="object-cover object-center rounded-lg"

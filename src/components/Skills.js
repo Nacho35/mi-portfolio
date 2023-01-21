@@ -10,16 +10,40 @@ import react from "../assets/reacts.svg";
 import arrow from "../assets/down.svg";
 import ex from "../assets/express.svg";
 import { Link } from "react-router-dom";
+import { motion } from "framer-motion";
 
 const Skills = () => {
   return (
     <section className="bg-mate3 font-lato w-full min-h-screen md:min-h-screen lg:min-h-screen">
-      <h2 className=" text-white flex justify-center py-2 md:py-16 font-semibold text-3xl">
-        Habilidades
-      </h2>
+      <div className="flex justify-center md:py-10">
+        <motion.div
+          initial={{ opacity: 0, scale: 1, x: 1000 }}
+          animate={{
+            opacity: 1,
+            x: 0,
+          }}
+          transition={{
+            type: "spring",
+            stiffness: 10,
+          }}
+          className="flex">
+          <h2 className=" text-white flex justify-center py-2 font-semibold text-3xl">
+            Habilidades
+          </h2>
+        </motion.div>
+      </div>
       <div className="w-full">
         <div className="flex justify-center py-6 md:space-x-16 lg:space-x-44">
-          <div className="relative flex justify-center bg-transparent px-8 rounded-lg md:hover:bg-obscure lg:hover:bg-obscure">
+          <motion.div
+            initial={{ y: -500 }}
+            animate={{ y: 0 }}
+            transition={{
+              type: "spring",
+              stiffness: 10,
+              duration: 1,
+              delay: 1,
+            }}
+            className="relative flex justify-center bg-transparent px-8 rounded-lg md:hover:bg-obscure lg:hover:bg-obscure">
             <img
               className="ml-auto mr-auto my-7"
               src={html}
@@ -29,8 +53,17 @@ const Skills = () => {
             <p className=" absolute left-0 right-0 bottom-0 text-white font-merriweather font-semibold text-center">
               HTML
             </p>
-          </div>
-          <div className="relative flex justify-center bg-transparent px-8 rounded-lg md:hover:bg-obscure lg:hover:bg-obscure">
+          </motion.div>
+          <motion.div
+            initial={{ y: -500 }}
+            animate={{ y: 0 }}
+            transition={{
+              type: "spring",
+              stiffness: 10,
+              duration: 1.5,
+              delay: 1.5,
+            }}
+            className="relative flex justify-center bg-transparent px-8 rounded-lg md:hover:bg-obscure lg:hover:bg-obscure">
             <img
               className="ml-auto mr-auto my-7"
               src={css}
@@ -40,8 +73,17 @@ const Skills = () => {
             <p className="absolute left-0 right-0 bottom-0 text-white font-merriweather font-semibold text-center">
               CSS
             </p>
-          </div>
-          <div className="relative flex justify-center bg-transparent px-8 rounded-lg md:hover:bg-obscure lg:hover:bg-obscure">
+          </motion.div>
+          <motion.div
+            initial={{ y: -500 }}
+            animate={{ y: 0 }}
+            transition={{
+              type: "spring",
+              stiffness: 10,
+              duration: 1.7,
+              delay: 1.7,
+            }}
+            className="relative flex justify-center bg-transparent px-8 rounded-lg md:hover:bg-obscure lg:hover:bg-obscure">
             <img
               className="ml-auto mr-auto my-7"
               src={javascript}
@@ -51,10 +93,19 @@ const Skills = () => {
             <p className="absolute left-0 right-0 bottom-0 text-white font-merriweather font-semibold text-center">
               JavaScript
             </p>
-          </div>
+          </motion.div>
         </div>
         <div className="flex justify-center relative py-6 md:space-x-16 lg:space-x-44">
-          <div className="relative flex justify-center bg-transparent px-8 rounded-lg md:hover:bg-obscure lg:hover:bg-obscure">
+          <motion.div
+            initial={{ y: -700 }}
+            animate={{ y: 0 }}
+            transition={{
+              type: "spring",
+              stiffness: 10,
+              duration: 1.2,
+              delay: 1.2,
+            }}
+            className="relative flex justify-center bg-transparent px-8 rounded-lg md:hover:bg-obscure lg:hover:bg-obscure">
             <img
               className="ml-auto mr-auto my-7"
               src={react}
@@ -64,8 +115,17 @@ const Skills = () => {
             <p className="absolute left-0 right-0 bottom-0 text-white font-merriweather font-semibold text-center">
               React
             </p>
-          </div>
-          <div className="relative flex justify-center bg-transparent px-8 rounded-lg md:hover:bg-obscure lg:hover:bg-obscure">
+          </motion.div>
+          <motion.div
+            initial={{ y: -700 }}
+            animate={{ y: 0 }}
+            transition={{
+              type: "spring",
+              stiffness: 10,
+              duration: 1.7,
+              delay: 1.7,
+            }}
+            className="relative flex justify-center bg-transparent px-8 rounded-lg md:hover:bg-obscure lg:hover:bg-obscure">
             <img
               className="ml-auto mr-auto my-7"
               src={mongo}
@@ -75,8 +135,17 @@ const Skills = () => {
             <p className="absolute left-0 right-0 bottom-0 text-white font-merriweather font-semibold text-center">
               MongoDB
             </p>
-          </div>
-          <div className="relative flex justify-center bg-transparent px-8 rounded-lg md:hover:bg-obscure lg:hover:bg-obscure">
+          </motion.div>
+          <motion.div
+            initial={{ y: -700 }}
+            animate={{ y: 0 }}
+            transition={{
+              type: "spring",
+              stiffness: 10,
+              duration: 2,
+              delay: 2,
+            }}
+            className="relative flex justify-center bg-transparent px-8 rounded-lg md:hover:bg-obscure lg:hover:bg-obscure">
             <img
               className="ml-auto mr-auto my-7"
               src={ex}
@@ -86,10 +155,19 @@ const Skills = () => {
             <p className="absolute left-0 right-0 bottom-0 text-white font-merriweather font-semibold text-center">
               Express
             </p>
-          </div>
+          </motion.div>
         </div>
         <div className="flex justify-center relative py-6 md:space-x-16 lg:space-x-44">
-          <div className="relative flex justify-center bg-transparent px-8 rounded-lg md:hover:bg-obscure lg:hover:bg-obscure">
+          <motion.div
+            initial={{ y: -900 }}
+            animate={{ y: 0 }}
+            transition={{
+              type: "spring",
+              stiffness: 10,
+              duration: 2.2,
+              delay: 2.2,
+            }}
+            className="relative flex justify-center bg-transparent px-8 rounded-lg md:hover:bg-obscure lg:hover:bg-obscure">
             <img
               className="ml-auto mr-auto my-7"
               src={nodejs}
@@ -99,8 +177,17 @@ const Skills = () => {
             <p className="absolute left-0 right-0 bottom-0 text-white font-merriweather font-semibold text-center">
               Node.js
             </p>
-          </div>
-          <div className="relative flex justify-center bg-transparent px-8 rounded-lg md:hover:bg-obscure lg:hover:bg-obscure">
+          </motion.div>
+          <motion.div
+            initial={{ y: -900 }}
+            animate={{ y: 0 }}
+            transition={{
+              type: "spring",
+              stiffness: 10,
+              duration: 2.5,
+              delay: 2.5,
+            }}
+            className="relative flex justify-center bg-transparent px-8 rounded-lg md:hover:bg-obscure lg:hover:bg-obscure">
             <img
               className="ml-auto mr-auto my-7"
               src={git}
@@ -110,8 +197,17 @@ const Skills = () => {
             <p className="absolute left-0 right-0 bottom-0 text-white font-merriweather font-semibold text-center">
               Git
             </p>
-          </div>
-          <div className="relative flex justify-center bg-transparent px-8 rounded-lg md:hover:bg-obscure lg:hover:bg-obscure">
+          </motion.div>
+          <motion.div
+            initial={{ y: -900 }}
+            animate={{ y: 0 }}
+            transition={{
+              type: "spring",
+              stiffness: 10,
+              duration: 3,
+              delay: 3,
+            }}
+            className="relative flex justify-center bg-transparent px-8 rounded-lg md:hover:bg-obscure lg:hover:bg-obscure">
             <img
               className="ml-auto mr-auto my-7"
               src={github}
@@ -121,7 +217,7 @@ const Skills = () => {
             <p className="absolute left-0 right-0 bottom-0 text-white font-merriweather font-semibold text-center">
               GitHub
             </p>
-          </div>
+          </motion.div>
         </div>
         <Link
           to="/gallery"

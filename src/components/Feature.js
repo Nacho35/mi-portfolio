@@ -4,21 +4,46 @@ import users from "../assets/users.svg";
 import tech from "../assets/laptop.svg";
 import arrow from "../assets/down.svg";
 import { Link } from "react-router-dom";
+import { motion } from "framer-motion";
 
 const Feature = () => {
   return (
     <section className="text-gold font-lato font-semibold bg-mate3 w-full md:h-auto">
       <div className="container px-5 py-16 mx-auto w-full lg:min-h-screen md:min-h-screen">
         <div className="w-full flex justify-center mb-14">
-          <h2 className=" text-white flex justify-center font-semibold text-3xl">
+          <motion.h2
+            initial={{ opacity: 0, scale: 1, x: 1000 }}
+            animate={{
+              opacity: 1,
+              x: 0,
+            }}
+            transition={{
+              type: "spring",
+              stiffness: 10,
+            }}
+            className=" text-white flex justify-center font-semibold text-3xl">
             Experiencia
-          </h2>
+          </motion.h2>
         </div>
         <div className="flex items-center lg:w-3/5 mx-auto border-b pb-10 mb-10 border-gold sm:flex-row flex-col">
-          <div className="sm:w-32 sm:h-32 h-20 w-20 sm:mr-10 inline-flex items-center justify-center rounded-full flex-shrink-0">
+          <motion.div
+            initial={{ x: -600 }}
+            animate={{ x: 0 }}
+            transition={{
+              type: "spring",
+              stiffness: 10,
+            }}
+            className="sm:w-32 sm:h-32 h-20 w-20 sm:mr-10 inline-flex items-center justify-center rounded-full flex-shrink-0">
             <img className="w-20 h-20" src={tech} alt="icon" />
-          </div>
-          <div className="flex-grow sm:text-left text-center mt-6 sm:mt-0">
+          </motion.div>
+          <motion.div
+            initial={{ opacity: 0, scale: 1, y: 700 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{
+              type: "spring",
+              stiffness: 10,
+            }}
+            className="flex-grow sm:text-left text-center mt-6 sm:mt-0">
             <h2 className="text-white text-lg title-font font-semibold mb-2">
               Tecnologías
             </h2>
@@ -31,10 +56,17 @@ const Feature = () => {
               las últimas tendencias y herramientas del mercado para poder
               ofrecer resultados de alta calidad."
             </p>
-          </div>
+          </motion.div>
         </div>
         <div className="flex items-center lg:w-3/5 mx-auto border-b pb-10 mb-10 border-gold sm:flex-row flex-col">
-          <div className="flex-grow sm:text-left text-center mt-6 sm:mt-0">
+          <motion.div
+            initial={{ opacity: 0, scale: 1, y: 700 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{
+              type: "spring",
+              stiffness: 10,
+            }}
+            className="flex-grow sm:text-left text-center mt-6 sm:mt-0">
             <h2 className="text-white text-lg title-font font-semibold mb-2">
               Trabajo en equipo
             </h2>
@@ -48,16 +80,37 @@ const Feature = () => {
               tamaños y en diferentes etapas del proyecto, desde la
               planificación hasta el lanzamiento."
             </p>
-          </div>
-          <div className="sm:w-32 sm:order-none order-first sm:h-32 h-20 w-20 sm:ml-10 inline-flex items-center justify-center rounded-full flex-shrink-0">
+          </motion.div>
+          <motion.div
+            initial={{ x: 600 }}
+            animate={{ x: 0 }}
+            transition={{
+              type: "spring",
+              stiffness: 10,
+            }}
+            className="sm:w-32 sm:order-none order-first sm:h-32 h-20 w-20 sm:ml-10 inline-flex items-center justify-center rounded-full flex-shrink-0">
             <img className="w-20 h-20" src={users} alt="icon" />
-          </div>
+          </motion.div>
         </div>
         <div className="flex items-center lg:w-3/5 mx-auto sm:flex-row flex-col">
-          <div className="sm:w-32 sm:h-32 h-20 w-20 sm:mr-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 flex-shrink-0">
+          <motion.div
+            initial={{ x: -600 }}
+            animate={{ x: 0 }}
+            transition={{
+              type: "spring",
+              stiffness: 10,
+            }}
+            className="sm:w-32 sm:h-32 h-20 w-20 sm:mr-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 flex-shrink-0">
             <img className="w-20 h-20" src={user} alt="icon" />
-          </div>
-          <div className="flex-grow sm:text-left text-center mt-6 sm:mt-0">
+          </motion.div>
+          <motion.div
+            initial={{ opacity: 0, scale: 1, y: 700 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{
+              type: "spring",
+              stiffness: 10,
+            }}
+            className="flex-grow sm:text-left text-center mt-6 sm:mt-0">
             <h2 className="text-white text-lg title-font font-semibold mb-2">
               Trabajo individual
             </h2>
@@ -73,7 +126,7 @@ const Feature = () => {
               trabajando de manera independiente y tomando responsabilidad de
               mis proyectos."
             </p>
-          </div>
+          </motion.div>
         </div>
         <Link
           to="/skills"

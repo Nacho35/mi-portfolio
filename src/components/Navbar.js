@@ -6,35 +6,35 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="font-lato font-semibold bg-mate3">
+    <nav className="font-lato font-semibold bg-gold sticky top-0">
       <div className="max-w-full mr-auto px-4 sm:px-6">
         <div className="flex items-center justify-center h-16 lg:w-full lg:grid grid-cols-2">
           <NavLink
-            className="text-gold lg:flex justify-center hover:bg-gold hover:text-mate px-3 py-2 mr-8 rounded-md text-xl lg:hover:bg-transparent lg:hover:text-white lg:text-center"
-            to="/">
+            className="text-mate3 lg:flex justify-start hover:bg-mate3 hover:text-gold px-3 py-2 mr-8 rounded-md text-xl lg:hover:bg-transparent lg:hover:text-white lg:text-center"
+            to="/home">
             INM
           </NavLink>
           <div className="flex items-center lg:grid grid-cols-1">
             <div className="hidden md:block">
-              <div className="ml-4 flex justify-center flex-row space-x-4 lg:flex lg:items-center">
+              <div className="ml-4 flex justify-end flex-row space-x-4 lg:flex lg:items-center">
                 <NavLink
                   to="/about"
-                  className="text-gold hover:bg-gold hover:text-mate px-3 py-2 rounded-md text-xl lg:hover:bg-transparent lg:hover:text-white">
+                  className="text-mate3 hover:bg-mate3 hover:text-gold px-3 py-2 rounded-md text-xl lg:hover:bg-transparent lg:hover:text-white">
                   Acerca de
                 </NavLink>
                 <NavLink
                   to="/skills"
-                  className="text-gold hover:bg-gold hover:text-mate px-3 py-2 rounded-md text-xl lg:hover:bg-transparent lg:hover:text-white">
+                  className="text-mate3 hover:bg-mate3 hover:text-gold px-3 py-2 rounded-md text-xl lg:hover:bg-transparent lg:hover:text-white">
                   Skills
                 </NavLink>
                 <NavLink
                   to="/gallery"
-                  className="text-gold hover:bg-gold hover:text-mate px-3 py-2 rounded-md text-xl lg:hover:bg-transparent lg:hover:text-white">
+                  className="text-mate3 hover:bg-mate3 hover:text-gold px-3 py-2 rounded-md text-xl lg:hover:bg-transparent lg:hover:text-white">
                   Proyectos
                 </NavLink>
                 <NavLink
                   to="/form"
-                  className="text-gold hover:bg-gold hover:text-mate px-3 py-2 rounded-md text-xl lg:hover:bg-transparent lg:hover:text-white">
+                  className="text-mate3 hover:bg-mate3 hover:text-gold px-3 py-2 rounded-md text-xl lg:hover:bg-transparent lg:hover:text-white">
                   Contacto
                 </NavLink>
               </div>
@@ -96,22 +96,22 @@ const Navbar = () => {
             <div ref={ref} className="px-2 pb-3 space-y-1 sm:px-3">
               <NavLink
                 to="/about"
-                className="text-gold hover:bg-gold hover:text-mate block px-2 py-4 rounded-md text-xl">
+                className="text-mate3 hover:bg-mate3 hover:text-gold block px-2 py-4 rounded-md text-xl">
                 Acerca de
               </NavLink>
               <NavLink
                 to="/skills"
-                className="text-gold hover:bg-gold hover:text-mate block  px-2 py-4 rounded-md text-xl">
+                className="text-mate3 hover:bg-mate3 hover:text-gold block  px-2 py-4 rounded-md text-xl">
                 Skills
               </NavLink>
               <NavLink
                 to="/gallery"
-                className="text-gold hover:bg-gold hover:text-mate block px-2 py-4 rounded-md text-xl">
+                className="text-mate3 hover:bg-mate3 hover:text-gold block px-2 py-4 rounded-md text-xl">
                 Proyectos
               </NavLink>
               <NavLink
                 to="/form"
-                className="text-gold hover:bg-gold hover:text-mate block px-2 py-4 rounded-md text-xl">
+                className="text-mate3 hover:bg-mate3 hover:text-gold block px-2 py-4 rounded-md text-xl">
                 Contacto
               </NavLink>
             </div>
