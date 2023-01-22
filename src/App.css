@@ -7,6 +7,7 @@
 :root {
   overflow-x: hidden;
   box-sizing: border-box;
+  z-index: 999;
 }
 
 /*** Mensajes de error del Form ***/
@@ -17,4 +18,14 @@
   font-size: small;
   font-weight: 500;
   margin-top: 1%;
+}
+
+/** Nav **/
+
+nav {
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
 }

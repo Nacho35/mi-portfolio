@@ -6,7 +6,7 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="font-lato font-semibold bg-gold sticky top-0">
+    <nav className="font-lato font-semibold bg-gold">
       <div className="max-w-full mr-auto px-4 sm:px-6">
         <div className="flex items-center justify-center h-16 lg:w-full lg:grid grid-cols-2">
           <NavLink

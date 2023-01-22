@@ -17,7 +17,7 @@ const Skills = () => {
     <section className="bg-mate3 font-lato w-full min-h-screen md:min-h-screen lg:min-h-screen">
       <div className="flex justify-center md:py-10">
         <motion.div
-          initial={{ opacity: 0, scale: 1, x: 1000 }}
+          initial={{ opacity: 0, scale: 1, x: 50 }}
           animate={{
             opacity: 1,
             x: 0,
@@ -35,8 +35,8 @@ const Skills = () => {
       <div className="w-full">
         <div className="flex justify-center py-6 md:space-x-16 lg:space-x-44">
           <motion.div
-            initial={{ y: -500 }}
-            animate={{ y: 0 }}
+            initial={{ y: -100, opacity: 0 }}
+            animate={{ y: 0, opacity: 1 }}
             transition={{
               type: "spring",
               stiffness: 10,
@@ -55,8 +55,8 @@ const Skills = () => {
             </p>
           </motion.div>
           <motion.div
-            initial={{ y: -500 }}
-            animate={{ y: 0 }}
+            initial={{ y: -100, opacity: 0 }}
+            animate={{ y: 0, opacity: 1 }}
             transition={{
               type: "spring",
               stiffness: 10,
@@ -75,8 +75,8 @@ const Skills = () => {
             </p>
           </motion.div>
           <motion.div
-            initial={{ y: -500 }}
-            animate={{ y: 0 }}
+            initial={{ y: -100, opacity: 0 }}
+            animate={{ y: 0, opacity: 1 }}
             transition={{
               type: "spring",
               stiffness: 10,
@@ -97,8 +97,8 @@ const Skills = () => {
         </div>
         <div className="flex justify-center relative py-6 md:space-x-16 lg:space-x-44">
           <motion.div
-            initial={{ y: -700 }}
-            animate={{ y: 0 }}
+            initial={{ y: -100, opacity: 0 }}
+            animate={{ y: 0, opacity: 1 }}
             transition={{
               type: "spring",
               stiffness: 10,
@@ -117,8 +117,8 @@ const Skills = () => {
             </p>
           </motion.div>
           <motion.div
-            initial={{ y: -700 }}
-            animate={{ y: 0 }}
+            initial={{ y: -100, opacity: 0 }}
+            animate={{ y: 0, opacity: 1 }}
             transition={{
               type: "spring",
               stiffness: 10,
@@ -137,8 +137,8 @@ const Skills = () => {
             </p>
           </motion.div>
           <motion.div
-            initial={{ y: -700 }}
-            animate={{ y: 0 }}
+            initial={{ y: -100, opacity: 0 }}
+            animate={{ y: 0, opacity: 1 }}
             transition={{
               type: "spring",
               stiffness: 10,
@@ -159,8 +159,8 @@ const Skills = () => {
         </div>
         <div className="flex justify-center relative py-6 md:space-x-16 lg:space-x-44">
           <motion.div
-            initial={{ y: -900 }}
-            animate={{ y: 0 }}
+            initial={{ y: -100, opacity: 0 }}
+            animate={{ y: 0, opacity: 1 }}
             transition={{
               type: "spring",
               stiffness: 10,
@@ -179,8 +179,8 @@ const Skills = () => {
             </p>
           </motion.div>
           <motion.div
-            initial={{ y: -900 }}
-            animate={{ y: 0 }}
+            initial={{ y: -100, opacity: 0 }}
+            animate={{ y: 0, opacity: 1 }}
             transition={{
               type: "spring",
               stiffness: 10,
@@ -199,8 +199,8 @@ const Skills = () => {
             </p>
           </motion.div>
           <motion.div
-            initial={{ y: -900 }}
-            animate={{ y: 0 }}
+            initial={{ y: -100, opacity: 0 }}
+            animate={{ y: 0, opacity: 1 }}
             transition={{
               type: "spring",
               stiffness: 10,
@@ -220,8 +220,8 @@ const Skills = () => {
           </motion.div>
         </div>
         <motion.div
-          initial={{ y: -1000 }}
-          animate={{ y: 0 }}
+          initial={{ y: -100, opacity: 0 }}
+          animate={{ y: 0, opacity: 1 }}
           transition={{
             type: "spring",
             stiffness: 12,

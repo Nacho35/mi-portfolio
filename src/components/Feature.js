@@ -12,7 +12,7 @@ const Feature = () => {
       <div className="container px-5 py-16 mx-auto w-full lg:min-h-screen md:min-h-screen">
         <div className="w-full flex justify-center mb-14">
           <motion.h2
-            initial={{ opacity: 0, scale: 1, x: 1000 }}
+            initial={{ opacity: 0, scale: 1, x: 20 }}
             animate={{
               opacity: 1,
               x: 0,
@@ -27,17 +27,18 @@ const Feature = () => {
         </div>
         <div className="flex items-center lg:w-3/5 mx-auto border-b pb-10 mb-10 border-gold sm:flex-row flex-col">
           <motion.div
-            initial={{ x: -600 }}
-            animate={{ x: 0 }}
+            initial={{ y: -100, opacity: 0 }}
+            animate={{ y: 0, opacity: 1 }}
             transition={{
               type: "spring",
               stiffness: 10,
+              delay: 0.5,
             }}
             className="sm:w-32 sm:h-32 h-20 w-20 sm:mr-10 inline-flex items-center justify-center rounded-full flex-shrink-0">
             <img className="w-20 h-20" src={tech} alt="icon" />
           </motion.div>
           <motion.div
-            initial={{ opacity: 0, scale: 1, y: 700 }}
+            initial={{ opacity: 0, scale: 1, y: 100 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{
               type: "spring",
@@ -60,7 +61,7 @@ const Feature = () => {
         </div>
         <div className="flex items-center lg:w-3/5 mx-auto border-b pb-10 mb-10 border-gold sm:flex-row flex-col">
           <motion.div
-            initial={{ opacity: 0, scale: 1, y: 700 }}
+            initial={{ opacity: 0, scale: 1, y: 100 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{
               type: "spring",
@@ -82,11 +83,12 @@ const Feature = () => {
             </p>
           </motion.div>
           <motion.div
-            initial={{ x: 600 }}
-            animate={{ x: 0 }}
+            initial={{ y: -100, opacity: 0 }}
+            animate={{ y: 0, opacity: 1 }}
             transition={{
               type: "spring",
               stiffness: 10,
+              delay: 1,
             }}
             className="sm:w-32 sm:order-none order-first sm:h-32 h-20 w-20 sm:ml-10 inline-flex items-center justify-center rounded-full flex-shrink-0">
             <img className="w-20 h-20" src={users} alt="icon" />
@@ -94,17 +96,18 @@ const Feature = () => {
         </div>
         <div className="flex items-center lg:w-3/5 mx-auto sm:flex-row flex-col">
           <motion.div
-            initial={{ x: -600 }}
-            animate={{ x: 0 }}
+            initial={{ y: -100, opacity: 0 }}
+            animate={{ y: 0, opacity: 1 }}
             transition={{
               type: "spring",
               stiffness: 10,
+              delay: 1.5,
             }}
             className="sm:w-32 sm:h-32 h-20 w-20 sm:mr-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 flex-shrink-0">
             <img className="w-20 h-20" src={user} alt="icon" />
           </motion.div>
           <motion.div
-            initial={{ opacity: 0, scale: 1, y: 700 }}
+            initial={{ opacity: 0, scale: 1, y: 100 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{
               type: "spring",
@@ -129,8 +132,8 @@ const Feature = () => {
           </motion.div>
         </div>
         <motion.div
-          initial={{ y: -1000 }}
-          animate={{ y: 0 }}
+          initial={{ y: -100, opacity: 0 }}
+          animate={{ y: 0, opacity: 1 }}
           transition={{
             type: "spring",
             stiffness: 12,

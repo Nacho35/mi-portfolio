@@ -11,7 +11,7 @@ const Form = () => {
     <section className="text-white font-lato bg-mate3 relative py-4 w-full md:max-h-fit min-h-screen lg:min-h-screen md:min-h-screen md:h-auto md:py-40">
       <div className="container px-5 mx-auto w-full">
         <motion.div
-          initial={{ opacity: 0, scale: 1, x: -1000 }}
+          initial={{ opacity: 0, scale: 1, x: 20 }}
           animate={{
             opacity: 1,
             x: 0,
@@ -93,11 +93,12 @@ const Form = () => {
               <form onSubmit={handleSubmit} className="flex flex-wrap -m-2">
                 <div className="p-2 w-1/2">
                   <motion.div
-                    initial={{ x: -500 }}
-                    animate={{ x: 0 }}
+                    initial={{ y: 100, opacity: 0 }}
+                    animate={{ y: 0, opacity: 1 }}
                     transition={{
                       type: "spring",
                       stiffness: 10,
+                      delay: 0.5,
                     }}
                     className="relative">
                     <label
@@ -122,11 +123,12 @@ const Form = () => {
                 </div>
                 <div className="p-2 w-1/2">
                   <motion.div
-                    initial={{ x: -500 }}
-                    animate={{ x: 0 }}
+                    initial={{ y: 100, opacity: 0 }}
+                    animate={{ y: 0, opacity: 1 }}
                     transition={{
                       type: "spring",
                       stiffness: 10,
+                      delay: 1,
                     }}
                     className="relative">
                     <label
@@ -151,11 +153,12 @@ const Form = () => {
                 </div>
                 <div className="p-2 w-full">
                   <motion.div
-                    initial={{ x: 500 }}
-                    animate={{ x: 0 }}
+                    initial={{ y: 100, opacity: 0 }}
+                    animate={{ y: 0, opacity: 1 }}
                     transition={{
                       type: "spring",
                       stiffness: 10,
+                      delay: 1.5,
                     }}
                     className="relative">
                     <label
@@ -180,11 +183,12 @@ const Form = () => {
                 </div>
                 <div className="p-2 w-full">
                   <motion.div
-                    initial={{ x: 500 }}
-                    animate={{ x: 0 }}
+                    initial={{ y: 100, opacity: 0 }}
+                    animate={{ y: 0, opacity: 1 }}
                     transition={{
                       type: "spring",
                       stiffness: 10,
+                      delay: 2,
                     }}
                     className="relative">
                     <label
@@ -206,7 +210,7 @@ const Form = () => {
                   </motion.div>
                 </div>
                 <motion.div
-                  initial={{ opacity: 0, scale: 1, y: 500 }}
+                  initial={{ opacity: 0, scale: 1, y: 100 }}
                   animate={{
                     opacity: 1,
                     y: 0,
@@ -214,6 +218,7 @@ const Form = () => {
                   transition={{
                     type: "spring",
                     stiffness: 10,
+                    delay: 2.5,
                   }}
                   whileHover={{
                     scale: 1.1,

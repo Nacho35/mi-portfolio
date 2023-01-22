@@ -17,11 +17,12 @@ const Footer = () => {
       <div className="md:flex md:flex-row md:justify-center md:py-4">
         <div className="px-14 flex justify-center py-4 md:p-5">
           <motion.div
-            initial={{ x: -500 }}
-            animate={{ x: 0 }}
+            initial={{ y: -100, opacity: 0 }}
+            animate={{ y: 0, opacity: 1 }}
             transition={{
               type: "spring",
               stiffness: 10,
+              delay: 0.5,
             }}
             className="flex flex-row items-center py-4 px-4 bg-mate rounded-lg">
             <img src={mail} alt="email" width="35px" />
@@ -32,11 +33,12 @@ const Footer = () => {
         </div>
         <div className="px-14 flex justify-center py-4 md:p-5">
           <motion.div
-            initial={{ x: -500 }}
-            animate={{ x: 0 }}
+            initial={{ y: -100, opacity: 0 }}
+            animate={{ y: 0, opacity: 1 }}
             transition={{
               type: "spring",
               stiffness: 10,
+              delay: 1,
             }}
             className="flex flex-row items-center py-4 px-4 bg-mate rounded-lg">
             <img src={phone} alt="telefono" width="35px" />
@@ -47,11 +49,12 @@ const Footer = () => {
         </div>
         <div className="px-14 flex justify-center py-4 md:p-5">
           <motion.div
-            initial={{ x: -500 }}
-            animate={{ x: 0 }}
+            initial={{ y: -100, opacity: 0 }}
+            animate={{ y: 0, opacity: 1 }}
             transition={{
               type: "spring",
               stiffness: 10,
+              delay: 1.5,
             }}
             className="flex flex-row items-center py-4 px-4 bg-mate rounded-lg">
             <img src={map} alt="ubicacion" width="35px" />
@@ -66,11 +69,12 @@ const Footer = () => {
           <h2 className="border border-solid border-gold"></h2>
         </div>
         <motion.a
-          initial={{ y: -500 }}
-          animate={{ y: 0 }}
+          initial={{ y: -100, opacity: 0 }}
+          animate={{ y: 0, opacity: 1 }}
           transition={{
             type: "spring",
             stiffness: 20,
+            delay: 0.5,
           }}
           whileHover={{
             scale: 1.5,
@@ -82,11 +86,12 @@ const Footer = () => {
           <img src={insta} alt="instagram" width="150px" />
         </motion.a>
         <motion.a
-          initial={{ y: -500 }}
-          animate={{ y: 0 }}
+          initial={{ y: -100, opacity: 0 }}
+          animate={{ y: 0, opacity: 1 }}
           transition={{
             type: "spring",
             stiffness: 20,
+            delay: 1,
           }}
           whileHover={{
             scale: 1.5,
@@ -98,11 +103,12 @@ const Footer = () => {
           <img src={whatsapp} alt="whatsapp" width="150px" />
         </motion.a>
         <motion.a
-          initial={{ y: -500 }}
-          animate={{ y: 0 }}
+          initial={{ y: -100, opacity: 0 }}
+          animate={{ y: 0, opacity: 1 }}
           transition={{
             type: "spring",
             stiffness: 20,
+            delay: 1.5,
           }}
           whileHover={{
             scale: 1.5,
@@ -114,11 +120,12 @@ const Footer = () => {
           <img src={linkedin} alt="linkedin" width="150px" />
         </motion.a>
         <motion.a
-          initial={{ y: -500 }}
-          animate={{ y: 0 }}
+          initial={{ y: -100, opacity: 0 }}
+          animate={{ y: 0, opacity: 1 }}
           transition={{
             type: "spring",
             stiffness: 20,
+            delay: 2,
           }}
           whileHover={{
             scale: 1.5,
@@ -134,12 +141,11 @@ const Footer = () => {
         </div>
       </div>
       <motion.div
-        initial={{ x: 600 }}
-        animate={{ x: 0 }}
+        initial={{ y: -50, opacity: 0 }}
+        animate={{ y: 0, opacity: 1 }}
         transition={{
           type: "spring",
           stiffness: 10,
-          duration: 1,
         }}>
         <h2 className="flex justify-center text-gold font-merriweather font-semibold text-lg">
           ❝Gracias Por Su Tiempo❞

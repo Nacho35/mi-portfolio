@@ -9,7 +9,7 @@ const About = () => {
       <div className="container max-h-fit w-full mx-auto flex px-5 md:flex-col flex-col items-center lg:flex-row md:flex md:text-center">
         <div className="lg:flex-grow md:w-full lg:pr-24 md:pt-14 flex flex-col md:items-center lg:items-start md:text-justify mb-16 py-4 lg:my-24 md:mb-auto items-center text-center">
           <motion.h1
-            initial={{ opacity: 0, scale: 1, x: 1000 }}
+            initial={{ opacity: 0, scale: 1, x: 50 }}
             animate={{
               opacity: 1,
               x: 0,
@@ -22,7 +22,7 @@ const About = () => {
             Acerca de mí
           </motion.h1>
           <motion.p
-            initial={{ opacity: 0, scale: 1, y: 700 }}
+            initial={{ opacity: 0, scale: 1, y: 100 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{
               type: "spring",
@@ -48,7 +48,7 @@ const About = () => {
             aprender cosas nuevas.
           </motion.p>
           <motion.div
-            initial={{ opacity: 0, y: -700 }}
+            initial={{ opacity: 0, y: -100 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{
               type: "spring",
@@ -66,8 +66,8 @@ const About = () => {
           </motion.div>
         </div>
         <motion.div
-          initial={{ x: 700 }}
-          animate={{ x: 0 }}
+          initial={{ opacity: 0, x: 50 }}
+          animate={{ opacity: 1, x: 0 }}
           transition={{
             type: "spring",
             stiffness: 10,

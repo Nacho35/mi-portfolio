@@ -14,7 +14,7 @@ const Gallery = () => {
     <section className="text-gold font-lato font-semibold bg-mate3 w-full min-h-screen lg:min-h-max md:min-h-max">
       <div className="container px-5 py-4 mx-auto w-full min-h-screen">
         <motion.div
-          initial={{ opacity: 0, scale: 1, x: 600 }}
+          initial={{ opacity: 0, scale: 1, x: 20 }}
           animate={{
             opacity: 1,
             x: 0,
@@ -27,7 +27,7 @@ const Gallery = () => {
           <h2 className="text-3xl mb-4 text-white">Proyectos</h2>
         </motion.div>
         <motion.div
-          initial={{ opacity: 0, scale: 1, y: -600 }}
+          initial={{ opacity: 0, scale: 1, y: -100 }}
           animate={{
             opacity: 1,
             y: 0,
@@ -126,8 +126,8 @@ const Gallery = () => {
           </button>
         </motion.div>
         <motion.a
-          initial={{ y: -1000 }}
-          animate={{ y: 0 }}
+          initial={{ y: -100, opacity: 0 }}
+          animate={{ y: 0, opacity: 1 }}
           transition={{
             type: "spring",
             stiffness: 12,
@@ -143,8 +143,8 @@ const Gallery = () => {
           Descargar CV
         </motion.a>
         <motion.div
-          initial={{ y: -1000 }}
-          animate={{ y: 0 }}
+          initial={{ y: -100, opacity: 0 }}
+          animate={{ y: 0, opacity: 1 }}
           transition={{
             type: "spring",
             stiffness: 12,
