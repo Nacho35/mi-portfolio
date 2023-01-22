@@ -8,7 +8,7 @@ const Form = () => {
   emailjs.init("V3bgPswcy43U_2n20");
 
   return (
-    <section className="text-white font-lato bg-mate3 relative py-4 w-full md:max-h-fit min-h-screen lg:min-h-screen md:min-h-screen md:h-auto md:py-40">
+    <section className="text-white font-lato bg-mate3 relative py-4 w-full md:max-h-fit min-h-screen lg:min-h-screen md:min-h-screen md:h-auto">
       <div className="container px-5 mx-auto w-full">
         <motion.div
           initial={{ opacity: 0, scale: 1, x: 20 }}
