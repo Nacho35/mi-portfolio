@@ -14,8 +14,8 @@ const Home = () => {
 					animate={{ opacity: 1, x: 0, y: 0 }}
 					transition={{ delay: 1, duration: 3 }}
 					className="lg:flex-grow lg:items-center md:w-full flex flex-col md:items-center md:text-center items-center text-center">
-					<div className="text-base font-semibold text-white mb-8 lg:text-3xl text-center md:text-2xl lg:mb-32 ">
-						Hola Soy!{" "}
+					<div className="text-base font-semibold text-white mb-8 lg:text-3xl text-center md:text-2xl lg:mb-96">
+						Hola Soy!
 						<h1 className="flex flex-col text-3xl text-gold font-semibold my-2  lg:text-7xl lg:text-center md:text-6xl">
 							Ignacio Morales
 						</h1>
