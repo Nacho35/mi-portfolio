@@ -10,7 +10,7 @@ import travel from "../assets/TravelN.png";
 
 const Gallery = () => {
 	return (
-		<section className="text-gold font-lato font-semibold bg-mate3 w-full pb-10  lg:min-h-max md:min-h-max">
+		<section className="text-gold font-lato font-semibold bg-mate3 w-full pb-16">
 			<div className="container px-5 py-4 mx-auto w-full">
 				<motion.div
 					initial={{ opacity: 0, scale: 1, x: 20 }}

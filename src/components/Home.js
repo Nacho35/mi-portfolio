@@ -2,6 +2,7 @@ import React from "react";
 import bghome2 from "../assets/bg-home2.jpg";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
+import FloatingButton from "./FloatingButton";
 
 const Home = () => {
 	return (
@@ -35,6 +36,7 @@ const Home = () => {
 					</div>
 				</motion.div>
 			</div>
+			<FloatingButton />
 		</section>
 	);
 };

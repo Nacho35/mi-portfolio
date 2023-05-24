@@ -8,7 +8,7 @@ import { motion } from "framer-motion";
 const Feature = () => {
 	return (
 		<section className="text-gold font-lato font-semibold bg-mate3 w-full md:h-auto">
-			<div className="container px-5 py-16 mx-auto w-full lg:min-h-screen md:min-h-screen">
+			<div className="container px-5  mx-auto w-full py-16">
 				<div className="w-full flex justify-center mb-14">
 					<motion.h2
 						initial={{ opacity: 0, scale: 1, x: 20 }}

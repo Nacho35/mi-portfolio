@@ -13,7 +13,7 @@ import { motion } from "framer-motion";
 
 const Skills = () => {
 	return (
-		<section className="bg-mate3 font-lato w-full pb-10 lg:min-h-screen">
+		<section className="bg-mate3 font-lato w-full pb-16">
 			<div className="flex justify-center md:py-10">
 				<motion.div
 					initial={{ opacity: 0, scale: 1, x: 50 }}

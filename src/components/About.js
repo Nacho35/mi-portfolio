@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 
 const About = () => {
 	return (
-		<section className="bg-mate3 font-lato w-full min-h-screen py-4 lg:min-h-screen lg:pt-4 md:min-h-screen md:pt-4">
+		<section className="bg-mate3 font-lato w-full pb-10">
 			<div className="container max-h-fit w-full mx-auto flex px-5 md:flex-col flex-col items-center lg:flex-row md:flex md:text-center">
 				<div className="lg:flex-grow md:w-full lg:pr-24 md:pt-14 flex flex-col md:items-center lg:items-start md:text-justify mb-16 py-4 lg:my-24 md:mb-auto items-center text-center">
 					<motion.h1
