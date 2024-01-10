@@ -8,6 +8,9 @@ import mongo from "../assets/mongo.svg";
 import nodejs from "../assets/node-js.svg";
 import react from "../assets/reacts.svg";
 import ex from "../assets/express.svg";
+import typescript from "../assets/typescript.svg";
+import sql from "../assets/mysql.svg";
+import next from "../assets/nextjs.svg";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 
@@ -39,8 +42,8 @@ const Skills = () => {
 						transition={{
 							type: "spring",
 							stiffness: 10,
-							duration: 1,
-							delay: 1,
+							duration: 0.5,
+							delay: 0.5,
 						}}
 						className="relative flex justify-center bg-transparent px-8 rounded-lg md:hover:bg-obscure lg:hover:bg-obscure">
 						<img
@@ -59,8 +62,8 @@ const Skills = () => {
 						transition={{
 							type: "spring",
 							stiffness: 10,
-							duration: 1.5,
-							delay: 1.5,
+							duration: 0.8,
+							delay: 0.8,
 						}}
 						className="relative flex justify-center bg-transparent px-8 rounded-lg md:hover:bg-obscure lg:hover:bg-obscure">
 						<img
@@ -79,8 +82,8 @@ const Skills = () => {
 						transition={{
 							type: "spring",
 							stiffness: 10,
-							duration: 1.7,
-							delay: 1.7,
+							duration: 1,
+							delay: 1,
 						}}
 						className="relative flex justify-center bg-transparent px-8 rounded-lg md:hover:bg-obscure lg:hover:bg-obscure">
 						<img
@@ -94,7 +97,7 @@ const Skills = () => {
 						</p>
 					</motion.div>
 				</div>
-				<div className="flex justify-center relative py-6 md:space-x-16 lg:space-x-44">
+				<div className="flex justify-center relative py-6 md:flex-row md:space-x-16 lg:space-x-44 lg:flex-row lg:justify-center">
 					<motion.div
 						initial={{ y: -100, opacity: 0 }}
 						animate={{ y: 0, opacity: 1 }}
@@ -103,6 +106,68 @@ const Skills = () => {
 							stiffness: 10,
 							duration: 1.2,
 							delay: 1.2,
+						}}
+						className="relative flex justify-center bg-transparent px-8 rounded-lg md:hover:bg-obscure lg:hover:bg-obscure">
+						<img
+							className="ml-auto mr-auto my-7"
+							src={typescript}
+							width="150px"
+							alt="icon"
+						/>
+						<p className="absolute left-0 right-0 bottom-0 text-white font-merriweather font-semibold text-center">
+							TypeScript
+						</p>
+					</motion.div>
+					<motion.div
+						initial={{ y: -100, opacity: 0 }}
+						animate={{ y: 0, opacity: 1 }}
+						transition={{
+							type: "spring",
+							stiffness: 10,
+							duration: 1.5,
+							delay: 1.5,
+						}}
+						className="relative flex justify-center bg-transparent px-8 rounded-lg md:hover:bg-obscure lg:hover:bg-obscure">
+						<img
+							className="ml-auto mr-auto my-7"
+							src={sql}
+							width="150px"
+							alt="icon"
+						/>
+						<p className="absolute left-0 right-0 bottom-0 text-white font-merriweather font-semibold text-center">
+							MySQL
+						</p>
+					</motion.div>
+					<motion.div
+						initial={{ y: -100, opacity: 0 }}
+						animate={{ y: 0, opacity: 1 }}
+						transition={{
+							type: "spring",
+							stiffness: 10,
+							duration: 1.7,
+							delay: 1.7,
+						}}
+						className="relative flex justify-center bg-transparent px-8 rounded-lg md:hover:bg-obscure lg:hover:bg-obscure">
+						<img
+							className="ml-auto mr-auto my-7"
+							src={next}
+							width="150px"
+							alt="icon"
+						/>
+						<p className="absolute left-0 right-0 bottom-0 text-white font-merriweather font-semibold text-center">
+							Next.js
+						</p>
+					</motion.div>
+				</div>
+				<div className="flex justify-center relative py-6 md:space-x-16 lg:space-x-44">
+					<motion.div
+						initial={{ y: -100, opacity: 0 }}
+						animate={{ y: 0, opacity: 1 }}
+						transition={{
+							type: "spring",
+							stiffness: 10,
+							duration: 1.9,
+							delay: 1.9,
 						}}
 						className="relative flex justify-center bg-transparent px-8 rounded-lg md:hover:bg-obscure lg:hover:bg-obscure">
 						<img
@@ -121,8 +186,8 @@ const Skills = () => {
 						transition={{
 							type: "spring",
 							stiffness: 10,
-							duration: 1.7,
-							delay: 1.7,
+							duration: 2.1,
+							delay: 2.1,
 						}}
 						className="relative flex justify-center bg-transparent px-8 rounded-lg md:hover:bg-obscure lg:hover:bg-obscure">
 						<img
@@ -141,8 +206,8 @@ const Skills = () => {
 						transition={{
 							type: "spring",
 							stiffness: 10,
-							duration: 2,
-							delay: 2,
+							duration: 2.3,
+							delay: 2.3,
 						}}
 						className="relative flex justify-center bg-transparent px-8 rounded-lg md:hover:bg-obscure lg:hover:bg-obscure">
 						<img
@@ -152,7 +217,7 @@ const Skills = () => {
 							alt="icon"
 						/>
 						<p className="absolute left-0 right-0 bottom-0 text-white font-merriweather font-semibold text-center">
-							Express
+							Express.js
 						</p>
 					</motion.div>
 				</div>
@@ -163,8 +228,8 @@ const Skills = () => {
 						transition={{
 							type: "spring",
 							stiffness: 10,
-							duration: 2.2,
-							delay: 2.2,
+							duration: 2.5,
+							delay: 2.5,
 						}}
 						className="relative flex justify-center bg-transparent px-8 rounded-lg md:hover:bg-obscure lg:hover:bg-obscure">
 						<img
@@ -183,8 +248,8 @@ const Skills = () => {
 						transition={{
 							type: "spring",
 							stiffness: 10,
-							duration: 2.5,
-							delay: 2.5,
+							duration: 3,
+							delay: 3,
 						}}
 						className="relative flex justify-center bg-transparent px-8 rounded-lg md:hover:bg-obscure lg:hover:bg-obscure">
 						<img
@@ -203,8 +268,8 @@ const Skills = () => {
 						transition={{
 							type: "spring",
 							stiffness: 10,
-							duration: 3,
-							delay: 3,
+							duration: 3.5,
+							delay: 3.5,
 						}}
 						className="relative flex justify-center bg-transparent px-8 rounded-lg md:hover:bg-obscure lg:hover:bg-obscure">
 						<img
