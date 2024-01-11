@@ -15,7 +15,7 @@ const Footer = () => {
 				<h2 className="border border-solid border-gold "></h2>
 			</div>
 			<div className="md:flex md:flex-row md:justify-center md:py-4">
-				<div className="px-14 flex justify-center py-4 md:p-5">
+				<div className="m-auto flex justify-center my-4 md:p-2 md:m-auto md:overflow-hidden bg-mate lg:p-2 lg:rounded-lg">
 					<motion.div
 						initial={{ y: -100, opacity: 0 }}
 						animate={{ y: 0, opacity: 1 }}
@@ -24,14 +24,14 @@ const Footer = () => {
 							stiffness: 10,
 							delay: 0.5,
 						}}
-						className="flex flex-row items-center py-4 px-4 bg-mate rounded-lg">
+						className="flex flex-row items-center p-4 md:m-auto">
 						<img src={mail} alt="email" width="35px" />
-						<h2 className="flex font-lato cursor-default font-semibold text-gold hover:text-white py-2 mx-1 md:mx-2 lg:mx-4">
+						<h2 className="flex font-lato cursor-default font-semibold text-gold hover:text-white mx-3 whitespace-nowrap">
 							ignacionahuelmorales@gmail.com
 						</h2>
 					</motion.div>
 				</div>
-				<div className="px-14 flex justify-center py-4 md:p-5">
+				<div className="m-auto flex justify-center my-4 md:p-2 md:m-auto md:overflow-hidden bg-mate lg:p-2 lg:rounded-lg">
 					<motion.div
 						initial={{ y: -100, opacity: 0 }}
 						animate={{ y: 0, opacity: 1 }}
@@ -40,14 +40,14 @@ const Footer = () => {
 							stiffness: 10,
 							delay: 1,
 						}}
-						className="flex flex-row items-center py-4 px-4 bg-mate rounded-lg">
+						className="flex flex-row items-center p-4 md:m-auto">
 						<img src={phone} alt="telefono" width="35px" />
-						<h2 className="flex font-lato cursor-default font-semibold text-gold hover:text-white py-2 mx-1 md:mx-2 lg:mx-4">
+						<h2 className="flex font-lato cursor-default font-semibold text-gold hover:text-white mx-3 whitespace-nowrap">
 							+54 9 2224 45-6653
 						</h2>
 					</motion.div>
 				</div>
-				<div className="px-14 flex justify-center py-4 md:p-5">
+				<div className="m-auto flex justify-center my-4 md:p-2 md:m-auto md:overflow-hidden bg-mate lg:p-2 lg:rounded-lg">
 					<motion.div
 						initial={{ y: -100, opacity: 0 }}
 						animate={{ y: 0, opacity: 1 }}
@@ -56,9 +56,9 @@ const Footer = () => {
 							stiffness: 10,
 							delay: 1.5,
 						}}
-						className="flex flex-row items-center py-4 px-4 bg-mate rounded-lg">
+						className="flex flex-row items-center p-4 md:m-auto">
 						<img src={map} alt="ubicacion" width="35px" />
-						<h2 className="flex font-lato cursor-default font-semibold text-gold hover:text-white py-2 mx-1 md:mx-2 lg:mx-4">
+						<h2 className="flex font-lato cursor-default font-semibold text-gold hover:text-white mx-3 whitespace-nowrap">
 							Bs As, San Vicente
 						</h2>
 					</motion.div>
