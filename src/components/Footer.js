@@ -74,7 +74,7 @@ const Footer = () => {
 					transition={{
 						type: "spring",
 						stiffness: 20,
-						delay: 0.5,
+						delay: 0,
 					}}
 					whileHover={{
 						scale: 1.5,
@@ -91,7 +91,7 @@ const Footer = () => {
 					transition={{
 						type: "spring",
 						stiffness: 20,
-						delay: 1,
+						delay: 0,
 					}}
 					whileHover={{
 						scale: 1.5,
@@ -108,7 +108,7 @@ const Footer = () => {
 					transition={{
 						type: "spring",
 						stiffness: 20,
-						delay: 1.5,
+						delay: 0,
 					}}
 					whileHover={{
 						scale: 1.5,
@@ -125,7 +125,7 @@ const Footer = () => {
 					transition={{
 						type: "spring",
 						stiffness: 20,
-						delay: 2,
+						delay: 0,
 					}}
 					whileHover={{
 						scale: 1.5,
