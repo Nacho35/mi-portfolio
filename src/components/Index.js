@@ -9,18 +9,18 @@ import Form from "./Form";
 import Footer from "./Footer";
 
 const Index = () => {
-  return (
-    <Fragment>
-      <Navbar />
-      <Home />
-      <About />
-      <Feature />
-      <Skills />
-      <Gallery />
-      <Form />
-      <Footer />
-    </Fragment>
-  );
+	return (
+		<Fragment>
+			<Navbar />
+			<Home id="home" />
+			<About id="about" />
+			<Feature />
+			<Skills id="skills" />
+			<Gallery id="gallery" />
+			<Form id="form" />
+			<Footer />
+		</Fragment>
+	);
 };
 
 export default Index;

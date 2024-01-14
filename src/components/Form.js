@@ -2,27 +2,18 @@ import React from "react";
 import { Formik } from "formik";
 import emailjs from "@emailjs/browser";
 import Swal from "sweetalert2";
-import { motion } from "framer-motion";
 
-const Form = () => {
+const Form = ({ id }) => {
 	emailjs.init("V3bgPswcy43U_2n20");
 
 	return (
-		<section className="text-white font-lato bg-mate3 relative py-4 w-full  pb-16 lg:pb-16 md:h-auto">
+		<section
+			id={id}
+			className="text-white font-lato bg-mate3 relative py-4 w-full  pb-16 lg:pb-16 md:h-auto">
 			<div className="container px-5 mx-auto w-full">
-				<motion.div
-					initial={{ opacity: 0, scale: 1, x: 20 }}
-					animate={{
-						opacity: 1,
-						x: 0,
-					}}
-					transition={{
-						type: "spring",
-						stiffness: 10,
-					}}
-					className="flex flex-col text-center w-full mb-12">
+				<div className="flex flex-col text-center w-full mb-12">
 					<h1 className="text-3xl mb-4 text-white font-semibold">Contacto</h1>
-				</motion.div>
+				</div>
 				<Formik
 					validate={(value) => {
 						let errors = {};
@@ -92,15 +83,7 @@ const Form = () => {
 						<div className="lg:w-1/2 md:w-2/3 mx-auto">
 							<form onSubmit={handleSubmit} className="flex flex-wrap -m-2">
 								<div className="p-2 w-1/2">
-									<motion.div
-										initial={{ y: 100, opacity: 0 }}
-										animate={{ y: 0, opacity: 1 }}
-										transition={{
-											type: "spring",
-											stiffness: 10,
-											delay: 0.5,
-										}}
-										className="relative">
+									<div className="relative">
 										<label
 											htmlFor="nombre"
 											className="leading-7 text-sm text-white">
@@ -119,18 +102,10 @@ const Form = () => {
 										{errors.nombre && touched.nombre ? (
 											<div className="error">{errors.nombre}</div>
 										) : null}{" "}
-									</motion.div>
+									</div>
 								</div>
 								<div className="p-2 w-1/2">
-									<motion.div
-										initial={{ y: 100, opacity: 0 }}
-										animate={{ y: 0, opacity: 1 }}
-										transition={{
-											type: "spring",
-											stiffness: 10,
-											delay: 1,
-										}}
-										className="relative">
+									<div className="relative">
 										<label
 											htmlFor="apellido"
 											className="leading-7 text-sm text-white">
@@ -149,18 +124,10 @@ const Form = () => {
 										{errors.apellido && touched.apellido ? (
 											<div className="error">{errors.apellido}</div>
 										) : null}{" "}
-									</motion.div>
+									</div>
 								</div>
 								<div className="p-2 w-full">
-									<motion.div
-										initial={{ y: 100, opacity: 0 }}
-										animate={{ y: 0, opacity: 1 }}
-										transition={{
-											type: "spring",
-											stiffness: 10,
-											delay: 1.5,
-										}}
-										className="relative">
+									<div className="relative">
 										<label
 											htmlFor="email"
 											className="leading-7 text-sm text-white">
@@ -179,18 +146,10 @@ const Form = () => {
 										{errors.email && touched.email ? (
 											<div className="error">{errors.email}</div>
 										) : null}
-									</motion.div>
+									</div>
 								</div>
 								<div className="p-2 w-full">
-									<motion.div
-										initial={{ y: 100, opacity: 0 }}
-										animate={{ y: 0, opacity: 1 }}
-										transition={{
-											type: "spring",
-											stiffness: 10,
-											delay: 2,
-										}}
-										className="relative">
+									<div className="relative">
 										<label
 											htmlFor="mensaje"
 											className="leading-7 text-sm text-white">
@@ -207,23 +166,9 @@ const Form = () => {
 										{errors.mensaje && touched.mensaje ? (
 											<div className="error">{errors.mensaje}</div>
 										) : null}
-									</motion.div>
+									</div>
 								</div>
-								<motion.div
-									initial={{ opacity: 0, scale: 1, y: 100 }}
-									animate={{
-										opacity: 1,
-										y: 0,
-									}}
-									transition={{
-										type: "spring",
-										stiffness: 10,
-										delay: 2.5,
-									}}
-									whileHover={{
-										scale: 1.1,
-									}}
-									className="p-2 w-full">
+								<div className="p-2 w-full">
 									<button
 										type="submit"
 										disabled={isSubmitting}
@@ -231,7 +176,7 @@ const Form = () => {
 										className="flex mx-auto mt-20 text-gold bg-transparent border-2 border-gold rounded border-solid py-2 px-20 focus:outline-none text-base font-semibold hover:text-mate hover:bg-gold lg:px-44 md:px-44 md:text-lg lg:text-lg">
 										Enviar
 									</button>
-								</motion.div>
+								</div>
 							</form>
 						</div>
 					)}

@@ -1,40 +1,21 @@
 import React from "react";
-import { Link } from "react-router-dom";
-import { motion } from "framer-motion";
 import "tw-elements";
 import bar from "../assets/bar.png";
 import bookstorage from "../assets/bookstorage.png";
-import bookstorage2 from "..//assets/bookstorage2.png";
+import bookstorage2 from "../assets/bookstorage2.png";
 import ongbird from "../assets/ongbird.png";
 import travel from "../assets/TravelN.png";
 
-const Gallery = () => {
+const Gallery = ({ id }) => {
 	return (
-		<section className="text-gold font-lato font-semibold bg-mate3 w-full pb-16">
+		<section
+			id={id}
+			className="text-gold font-lato font-semibold bg-mate3 w-full pb-16">
 			<div className="container px-5 py-4 mx-auto w-full">
-				<motion.div
-					initial={{ opacity: 0, scale: 1, x: 20 }}
-					animate={{
-						opacity: 1,
-						x: 0,
-					}}
-					transition={{
-						type: "spring",
-						stiffness: 10,
-					}}
-					className="flex flex-col text-center w-full mb-16">
+				<div className="flex flex-col text-center w-full mb-16">
 					<h2 className="text-3xl mb-4 text-white">Proyectos</h2>
-				</motion.div>
-				<motion.div
-					initial={{ opacity: 0, scale: 1, y: -100 }}
-					animate={{
-						opacity: 1,
-						y: 0,
-					}}
-					transition={{
-						type: "spring",
-						stiffness: 10,
-					}}
+				</div>
+				<div
 					id="carouselExampleCaptions"
 					className="carousel slide relative"
 					data-bs-ride="carousel">
@@ -70,37 +51,18 @@ const Gallery = () => {
 					<div className="carousel-inner relative w-full overflow-hidden">
 						<div className="carousel-item active relative float-left w-full">
 							<img src={travel} className="block w-full" alt="..." />
-							<div className="carousel-caption hidden md:block absolute text-center">
-								<h5 className="text-xl">E-commerce de Empresa de Viajes</h5>
-								<p>
-									Sitio web creado con React full responsive con carrito de
-									compras
-								</p>
-							</div>
 						</div>
 						<div className="carousel-item relative float-left w-full">
 							<img src={bookstorage} className="block w-full" alt="..." />
-							<div className="carousel-caption hidden md:block absolute text-center">
-								<h5 className="text-xl">App Book Storage</h5>
-								<p>
-									Sitio en donde se almacenan datos de libros via formulario
-								</p>
-							</div>
 						</div>
 						<div className="carousel-item relative float-left w-full">
 							<img src={bookstorage2} className="block w-full" alt="..." />
 						</div>
 						<div className="carousel-item relative float-left w-full">
 							<img src={ongbird} className="block w-full" alt="..." />
-							<div className="carousel-caption hidden md:block absolute text-center">
-								<h5 className="text-xl">Sitio Web ONG Animales</h5>
-							</div>
 						</div>
 						<div className="carousel-item relative float-left w-full">
 							<img src={bar} className="block w-full" alt="..." />
-							<div className="carousel-caption hidden md:block absolute text-center">
-								<h5 className="text-xl">Sitio Web E-comerce Bar</h5>
-							</div>
 						</div>
 					</div>
 					<button
@@ -123,38 +85,14 @@ const Gallery = () => {
 							aria-hidden="true"></span>
 						<span className="visually-hidden">Next</span>
 					</button>
-				</motion.div>
-				<motion.a
-					initial={{ y: -100, opacity: 0 }}
-					animate={{ y: 0, opacity: 1 }}
-					transition={{
-						type: "spring",
-						stiffness: 12,
-						delay: 1,
-					}}
-					whileHover={{
-						scale: 1.1,
-					}}
+				</div>
+				<a
 					href="https://drive.google.com/file/d/13kIAPHqpxjyujXM8VdOwtFvzxqoT87MU/view?usp=share_link"
 					target="_blank"
 					rel="noopener noreferrer"
 					className="flex my-10 mx-auto w-fit items-center text-gold bg-transparent border-2 border-gold rounded border-solid py-2 px-6 focus:outline-none text-lg font-semibold hover:text-mate hover:bg-gold">
 					Descargar CV
-				</motion.a>
-				<motion.div
-					initial={{ y: -100, opacity: 0 }}
-					animate={{ y: 0, opacity: 1 }}
-					transition={{
-						type: "spring",
-						stiffness: 12,
-						delay: 0.5,
-					}}>
-					<Link
-						to="/form"
-						className="flex justify-center mx-auto mt-4 border-solid w-40 h-auto rounded text-white bg-transparent border-2 border-gold px-6 focus:outline-none text-4xl font-semibold transition ease-in-out delay-100 hover:-translate-y-1 hover:scale-110">
-						<p className="text-gold text-center text-lg">Continuar</p>
-					</Link>
-				</motion.div>
+				</a>
 			</div>
 		</section>
 	);

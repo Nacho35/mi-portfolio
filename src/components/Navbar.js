@@ -1,42 +1,71 @@
 import React, { useState } from "react";
 import { Transition } from "@headlessui/react";
-import { NavLink } from "react-router-dom";
+import { Link as ScrollLink } from "react-scroll";
 
 const Navbar = () => {
 	const [isOpen, setIsOpen] = useState(false);
+
+	const closeMenu = () => {
+		setIsOpen(false);
+	};
 
 	return (
 		<nav className="font-lato font-semibold bg-gold">
 			<div className="max-w-full mr-auto px-4 sm:px-6">
 				<div className="flex items-center justify-center h-16 lg:w-full lg:grid grid-cols-2">
-					<NavLink
-						className="text-mate3 lg:flex justify-start hover:bg-mate3 hover:text-gold px-3 py-2 mr-5 lg:mr-auto rounded-md text-xl lg:hover:bg-transparent lg:hover:text-white lg:text-center"
-						to="/home">
+					<ScrollLink
+						to="home"
+						spy={true}
+						smooth={true}
+						offset={-70}
+						duration={2000}
+						onClick={closeMenu}
+						className="text-mate3 lg:flex justify-start hover:bg-mate3 hover:text-gold px-3 py-2 mr-5 lg:mr-auto rounded-md text-xl lg:hover:bg-transparent lg:hover:text-white lg:text-center cursor-pointer">
 						INM
-					</NavLink>
+					</ScrollLink>
 					<div className="flex items-center lg:grid grid-cols-1">
 						<div className="hidden md:block">
 							<div className="ml-4 flex justify-end flex-row space-x-4 lg:flex lg:items-center">
-								<NavLink
-									to="/about"
-									className="text-mate3 hover:bg-mate3 hover:text-gold px-3 py-2 rounded-md text-xl lg:hover:bg-transparent lg:hover:text-white">
+								<ScrollLink
+									spy={true}
+									smooth={true}
+									to="about"
+									offset={-60}
+									duration={2000}
+									onClick={closeMenu}
+									className="text-mate3 hover:bg-mate3 hover:text-gold px-3 py-2 rounded-md text-xl lg:hover:bg-transparent lg:hover:text-white cursor-pointer">
 									Acerca de
-								</NavLink>
-								<NavLink
-									to="/skills"
-									className="text-mate3 hover:bg-mate3 hover:text-gold px-3 py-2 rounded-md text-xl lg:hover:bg-transparent lg:hover:text-white">
+								</ScrollLink>
+								<ScrollLink
+									spy={true}
+									smooth={true}
+									to="skills"
+									offset={-70}
+									duration={2000}
+									onClick={closeMenu}
+									className="text-mate3 hover:bg-mate3 hover:text-gold px-3 py-2 rounded-md text-xl lg:hover:bg-transparent lg:hover:text-white cursor-pointer">
 									Skills
-								</NavLink>
-								<NavLink
-									to="/gallery"
-									className="text-mate3 hover:bg-mate3 hover:text-gold px-3 py-2 rounded-md text-xl lg:hover:bg-transparent lg:hover:text-white">
+								</ScrollLink>
+								<ScrollLink
+									spy={true}
+									smooth={true}
+									to="gallery"
+									offset={-70}
+									duration={2000}
+									onClick={closeMenu}
+									className="text-mate3 hover:bg-mate3 hover:text-gold px-3 py-2 rounded-md text-xl lg:hover:bg-transparent lg:hover:text-white cursor-pointer">
 									Proyectos
-								</NavLink>
-								<NavLink
-									to="/form"
-									className="text-mate3 hover:bg-mate3 hover:text-gold px-3 py-2 rounded-md text-xl lg:hover:bg-transparent lg:hover:text-white">
+								</ScrollLink>
+								<ScrollLink
+									spy={true}
+									smooth={true}
+									to="form"
+									offset={-70}
+									duration={2000}
+									onClick={closeMenu}
+									className="text-mate3 hover:bg-mate3 hover:text-gold px-3 py-2 rounded-md text-xl lg:hover:bg-transparent lg:hover:text-white cursor-pointer">
 									Contacto
-								</NavLink>
+								</ScrollLink>
 							</div>
 						</div>
 					</div>
@@ -60,8 +89,7 @@ const Navbar = () => {
 										strokeLinecap="round"
 										strokeLinejoin="round"
 										strokeWidth="2"
-										d="M4 6h16M4 12h16M4 18h16"
-									/>
+										d="M4 6h16M4 12h16M4 18h16"></path>
 								</svg>
 							) : (
 								<svg
@@ -75,8 +103,7 @@ const Navbar = () => {
 										strokeLinecap="round"
 										strokeLinejoin="round"
 										strokeWidth="2"
-										d="M6 18L18 6M6 6l12 12"
-									/>
+										d="M6 18L18 6M6 6l12 12"></path>
 								</svg>
 							)}
 						</button>
@@ -94,26 +121,46 @@ const Navbar = () => {
 				{(ref) => (
 					<div className="md:hidden" id="mobile-menu">
 						<div ref={ref} className="px-2 pb-3 space-y-1 sm:px-3">
-							<NavLink
-								to="/about"
+							<ScrollLink
+								spy={true}
+								smooth={true}
+								to="about"
+								offset={-320}
+								duration={2000}
+								onClick={closeMenu}
 								className="text-mate3 hover:bg-mate3 hover:text-gold block px-2 py-4 rounded-md text-xl">
 								Acerca de
-							</NavLink>
-							<NavLink
-								to="/skills"
+							</ScrollLink>
+							<ScrollLink
+								spy={true}
+								smooth={true}
+								to="skills"
+								offset={-322}
+								duration={2000}
+								onClick={closeMenu}
 								className="text-mate3 hover:bg-mate3 hover:text-gold block  px-2 py-4 rounded-md text-xl">
 								Skills
-							</NavLink>
-							<NavLink
-								to="/gallery"
+							</ScrollLink>
+							<ScrollLink
+								spy={true}
+								smooth={true}
+								to="gallery"
+								offset={-320}
+								duration={2000}
+								onClick={closeMenu}
 								className="text-mate3 hover:bg-mate3 hover:text-gold block px-2 py-4 rounded-md text-xl">
 								Proyectos
-							</NavLink>
-							<NavLink
-								to="/form"
+							</ScrollLink>
+							<ScrollLink
+								spy={true}
+								smooth={true}
+								to="form"
+								offset={-320}
+								duration={2000}
+								onClick={closeMenu}
 								className="text-mate3 hover:bg-mate3 hover:text-gold block px-2 py-4 rounded-md text-xl">
 								Contacto
-							</NavLink>
+							</ScrollLink>
 						</div>
 					</div>
 				)}
