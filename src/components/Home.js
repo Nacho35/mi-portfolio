@@ -6,7 +6,7 @@ import FloatingButton from "./FloatingButton";
 
 const Home = () => {
 	return (
-		<section className="font-lato relative w-full min-h-full">
+		<section id="home" className="font-lato relative w-full min-h-full">
 			<img className="bg-cover bg-center" src={bghome2} alt="bg" />
 			<div className="bg-black bg-opacity-50 absolute inset-0"></div>
 			<div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center absolute justify-center bottom-0 top-0 left-0 right-0 lg:absolute lg:bottom-0 lg:top-0 lg:left-0 lg:right-0">
