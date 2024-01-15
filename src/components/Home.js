@@ -1,16 +1,15 @@
-import React from "react";
+import React, { useEffect } from "react";
 import bghome2 from "../assets/bg-home2.webp";
 import { Link as ScrollLink } from "react-scroll";
 import FloatingButton from "./FloatingButton";
 import AOS from "aos";
-
-AOS.init({
-	duration: 3000,
-	easing: "ease",
-	once: true,
-});
+import "aos/dist/aos.css";
 
 const Home = ({ id }) => {
+	useEffect(() => {
+		AOS.init({ duration: 3000 });
+	});
+
 	return (
 		<section id="home" className="font-lato relative w-full min-h-full">
 			<img className="bg-cover bg-center" src={bghome2} alt="bg" />
@@ -25,14 +24,14 @@ const Home = ({ id }) => {
 						</h3>
 						<h1
 							data-aos="fade-down"
-							data-aos-delay="1500"
+							data-aos-delay="2000"
 							className="flex flex-col text-3xl text-white font-semibold my-2  lg:text-7xl lg:text-center md:text-6xl">
 							Ignacio Morales
 						</h1>
 						<br className="hidden lg:inline-block" />
 						<h2
 							data-aos="fade-down"
-							data-aos-delay="2500"
+							data-aos-delay="3000"
 							className="flex justify-center mb-8 leading-relaxed text-xl text-white font-semibold lg:text-4xl md:text-3xl">
 							Full Stack Developer
 						</h2>
@@ -43,7 +42,7 @@ const Home = ({ id }) => {
 								smooth={true}
 								offset={-70}
 								duration={2000}
-								className="inline-flex border-2 border-gold rounded border-solid py-2 px-6 mb-2 focus:outline-none text-base lg:text-xl md:text-lg font-semibold text-mate bg-gold cursor-pointer">
+								className="inline-flex border-2 border-gold rounded border-solid py-2 px-6 mb-2 focus:outline-none text-base lg:text-xl md:text-lg font-semibold text-mate bg-gold cursor-pointer button-home button-home-animation">
 								Contacto
 							</ScrollLink>
 						</div>
