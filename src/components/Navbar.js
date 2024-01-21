@@ -1,8 +1,6 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import { Transition } from "@headlessui/react";
 import { Link as ScrollLink } from "react-scroll";
-import AOS from "aos";
-import "aos/dist/aos.css";
 
 const Navbar = () => {
 	const [isOpen, setIsOpen] = useState(false);
@@ -11,21 +9,15 @@ const Navbar = () => {
 		setIsOpen(false);
 	};
 
-	useEffect(() => {
-		AOS.init({ duration: 3000 });
-	});
-
 	return (
 		<nav className="font-lato font-semibold bg-gold">
 			<div className="max-w-full mr-auto px-4 sm:px-6">
-				<div
-					data-aos="fade-down"
-					className="flex items-center justify-center h-16 lg:w-full lg:grid grid-cols-2">
+				<div className="flex items-center justify-center h-16 lg:w-full lg:grid grid-cols-2">
 					<ScrollLink
 						to="home"
 						spy={true}
 						smooth={true}
-						offset={-70}
+						offset={-500}
 						duration={2000}
 						onClick={closeMenu}
 						className="text-mate3 lg:flex justify-start hover:bg-mate3 hover:text-gold px-3 py-2 mr-5 lg:mr-auto rounded-md text-xl lg:hover:bg-transparent lg:hover:text-white lg:text-center cursor-pointer">

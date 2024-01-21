@@ -22,7 +22,7 @@ const Skills = ({ id }) => {
 			</div>
 			<div className="w-full">
 				<div className="flex justify-center py-6 md:space-x-16 lg:space-x-44">
-					<div className="relative flex justify-center bg-transparent px-8 rounded-lg md:hover:bg-obscure lg:hover:bg-obscure">
+					<div className="relative flex justify-center bg-transparent px-8 skill skill-animation">
 						<img
 							className="ml-auto mr-auto my-7"
 							src={html}
@@ -33,7 +33,7 @@ const Skills = ({ id }) => {
 							HTML
 						</p>
 					</div>
-					<div className="relative flex justify-center bg-transparent px-8 rounded-lg md:hover:bg-obscure lg:hover:bg-obscure">
+					<div className="relative flex justify-center bg-transparent px-8 skill skill-animation">
 						<img
 							className="ml-auto mr-auto my-7"
 							src={css}
@@ -44,7 +44,7 @@ const Skills = ({ id }) => {
 							CSS
 						</p>
 					</div>
-					<div className="relative flex justify-center bg-transparent px-8 rounded-lg md:hover:bg-obscure lg:hover:bg-obscure">
+					<div className="relative flex justify-center bg-transparent px-8 skill skill-animation">
 						<img
 							className="ml-auto mr-auto my-7"
 							src={javascript}
@@ -57,7 +57,7 @@ const Skills = ({ id }) => {
 					</div>
 				</div>
 				<div className="flex justify-center relative py-6 md:flex-row md:space-x-16 lg:space-x-44 lg:flex-row lg:justify-center">
-					<div className="relative flex justify-center bg-transparent px-8 rounded-lg md:hover:bg-obscure lg:hover:bg-obscure">
+					<div className="relative flex justify-center bg-transparent px-8 skill skill-animation">
 						<img
 							className="ml-auto mr-auto my-7"
 							src={typescript}
@@ -68,7 +68,7 @@ const Skills = ({ id }) => {
 							TypeScript
 						</p>
 					</div>
-					<div className="relative flex justify-center bg-transparent px-8 rounded-lg md:hover:bg-obscure lg:hover:bg-obscure">
+					<div className="relative flex justify-center bg-transparent px-8 skill skill-animation">
 						<img
 							className="ml-auto mr-auto my-7"
 							src={sql}
@@ -79,7 +79,7 @@ const Skills = ({ id }) => {
 							MySQL
 						</p>
 					</div>
-					<div className="relative flex justify-center bg-transparent px-8 rounded-lg md:hover:bg-obscure lg:hover:bg-obscure">
+					<div className="relative flex justify-center bg-transparent px-8 skill skill-animation">
 						<img
 							className="ml-auto mr-auto my-7"
 							src={next}
@@ -92,7 +92,7 @@ const Skills = ({ id }) => {
 					</div>
 				</div>
 				<div className="flex justify-center relative py-6 md:space-x-16 lg:space-x-44">
-					<div className="relative flex justify-center bg-transparent px-8 rounded-lg md:hover:bg-obscure lg:hover:bg-obscure">
+					<div className="relative flex justify-center bg-transparent px-8 skill skill-animation">
 						<img
 							className="ml-auto mr-auto my-7"
 							src={react}
@@ -103,7 +103,7 @@ const Skills = ({ id }) => {
 							React
 						</p>
 					</div>
-					<div className="relative flex justify-center bg-transparent px-8 rounded-lg md:hover:bg-obscure lg:hover:bg-obscure">
+					<div className="relative flex justify-center bg-transparent px-8 skill skill-animation">
 						<img
 							className="ml-auto mr-auto my-7"
 							src={mongo}
@@ -114,7 +114,7 @@ const Skills = ({ id }) => {
 							MongoDB
 						</p>
 					</div>
-					<div className="relative flex justify-center bg-transparent px-8 rounded-lg md:hover:bg-obscure lg:hover:bg-obscure">
+					<div className="relative flex justify-center bg-transparent px-8 skill skill-animation">
 						<img
 							className="ml-auto mr-auto my-7"
 							src={ex}
@@ -127,7 +127,7 @@ const Skills = ({ id }) => {
 					</div>
 				</div>
 				<div className="flex justify-center relative py-6 md:space-x-16 lg:space-x-44">
-					<div className="relative flex justify-center bg-transparent px-8 rounded-lg md:hover:bg-obscure lg:hover:bg-obscure">
+					<div className="relative flex justify-center bg-transparent px-8 skill skill-animation">
 						<img
 							className="ml-auto mr-auto my-7"
 							src={nodejs}
@@ -138,7 +138,7 @@ const Skills = ({ id }) => {
 							Node.js
 						</p>
 					</div>
-					<div className="relative flex justify-center bg-transparent px-8 rounded-lg md:hover:bg-obscure lg:hover:bg-obscure">
+					<div className="relative flex justify-center bg-transparent px-8 skill skill-animation">
 						<img
 							className="ml-auto mr-auto my-7"
 							src={git}
@@ -149,7 +149,7 @@ const Skills = ({ id }) => {
 							Git
 						</p>
 					</div>
-					<div className="relative flex justify-center bg-transparent px-8 rounded-lg md:hover:bg-obscure lg:hover:bg-obscure">
+					<div className="relative flex justify-center bg-transparent px-8 skill skill-animation">
 						<img
 							className="ml-auto mr-auto my-7"
 							src={github}
