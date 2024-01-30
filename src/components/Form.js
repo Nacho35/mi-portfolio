@@ -47,7 +47,7 @@ const Form = ({ id }) => {
 					}}
 					initialValues={{ nombre: "", apellido: "", email: "", mensaje: "" }}
 					onSubmit={(values, formikBag) => {
-						emailjs.send("service_d7wus6l", "template_4ftsw8k", values);
+						emailjs.send("service_hidux9h", "template_4ftsw8k", values);
 						try {
 							formikBag.resetForm();
 							formikBag.setSubmitting(false);
