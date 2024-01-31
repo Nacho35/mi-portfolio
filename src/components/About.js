@@ -4,12 +4,12 @@ import me from "../assets/yo.jpg";
 const About = ({ id }) => {
 	return (
 		<section id={id} className="bg-mate3 font-lato w-full pb-10">
-			<div className="container max-h-fit w-full mx-auto flex px-5 md:flex-col flex-col items-center lg:flex-row md:flex md:text-center">
+			<div className="container max-h-fit w-full mx-auto flex px-5  md:flex-col flex-col items-center lg:flex-row md:flex md:text-center">
 				<div className="lg:flex-grow md:w-full lg:pr-24 md:pt-14 flex flex-col md:items-center lg:items-start md:text-justify mb-16 py-4 lg:my-24 md:mb-auto items-center text-center">
 					<h1 className="sm:text-4xl text-3xl mb-4 font-semibold text-white">
 						Acerca de mí
 					</h1>
-					<p className="mb-8 leading-relaxed text-gold font-semibold">
+					<p className="mb-8 leading-relaxed text-gold font-semibold text-justify">
 						Hola, mi nombre es Ignacio y soy un desarrollador apasionado por la
 						tecnología. Mi objetivo a largo plazo es seguir creciendo
 						profesionalmente en el desarrollo web, y en un futuro ingresar al
@@ -29,7 +29,7 @@ const About = ({ id }) => {
 						aprender cosas nuevas.
 					</p>
 				</div>
-				<div className="lg:max-w-lg lg:w-full md:w-3/4/2 md:flex md:justify-center md:pt-20 w-5/6">
+				<div className="lg:max-w-lg lg:w-full md:w-3/4/2 md:flex md:justify-center md:pt-10 w-5/6">
 					<img
 						className="object-cover object-center rounded-lg"
 						alt="hero"

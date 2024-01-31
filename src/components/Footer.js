@@ -14,28 +14,40 @@ const Footer = () => {
 				<div className="border border-solid border-gold "></div>
 			</div>
 			<div className="md:flex md:flex-row md:justify-center md:py-4">
-				<div className="m-auto flex justify-center my-4 md:p-2 md:m-auto md:overflow-hidden bg-mate lg:p-2 lg:rounded-lg">
+				<div className="m-auto flex justify-center my-4 md:p-2 md:m-auto md:w-full bg-mate lg:p-2 lg:w-full">
 					<div className="flex flex-row items-center p-4 md:m-auto">
 						<img src={mail} alt="email" width="35px" />
-						<h2 className="flex font-lato cursor-default font-semibold text-gold hover:text-white mx-3 whitespace-nowrap">
+						<a
+							href="mailto:ignacionahuelmorales@gmail.com"
+							target="_blank"
+							rel="noopener noreferrer"
+							className="flex font-lato cursor-pointer font-semibold text-gold hover:text-white mx-3 whitespace-nowrap">
 							ignacionahuelmorales@gmail.com
-						</h2>
+						</a>
 					</div>
 				</div>
-				<div className="m-auto flex justify-center my-4 md:p-2 md:m-auto md:overflow-hidden bg-mate lg:p-2 lg:rounded-lg">
+				<div className="m-auto flex justify-center my-4 md:p-2 md:m-auto md:w-full bg-mate lg:p-2 lg:w-full">
 					<div className="flex flex-row items-center p-4 md:m-auto">
 						<img src={phone} alt="telefono" width="35px" />
-						<h2 className="flex font-lato cursor-default font-semibold text-gold hover:text-white mx-3 whitespace-nowrap">
+						<a
+							href="tel:+542224456653"
+							target="_blank"
+							rel="noopener noreferrer"
+							className="flex font-lato cursor-pointer font-semibold text-gold hover:text-white mx-3 whitespace-nowrap">
 							+54 9 2224 45-6653
-						</h2>
+						</a>
 					</div>
 				</div>
-				<div className="m-auto flex justify-center my-4 md:p-2 md:m-auto md:overflow-hidden bg-mate lg:p-2 lg:rounded-lg">
+				<div className="m-auto flex justify-center my-4 md:p-2 md:m-auto md:w-full bg-mate lg:p-2 lg:w-full">
 					<div className="flex flex-row items-center p-4 md:m-auto">
 						<img src={map} alt="ubicacion" width="35px" />
-						<h2 className="flex font-lato cursor-default font-semibold text-gold hover:text-white mx-3 whitespace-nowrap">
-							Bs As, San Vicente
-						</h2>
+						<a
+							href="https://www.google.com/maps?q=Bs+As,San+Vicente"
+							target="_blank"
+							rel="noopener noreferrer"
+							className="flex font-lato cursor-pointer font-semibold text-gold hover:text-white mx-3 whitespace-nowrap">
+							Buenos Aires, San Vicente
+						</a>
 					</div>
 				</div>
 			</div>

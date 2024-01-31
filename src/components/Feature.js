@@ -6,8 +6,8 @@ import tech from "../assets/laptop.svg";
 const Feature = () => {
 	return (
 		<section className="text-gold font-lato font-semibold bg-mate3 w-full md:h-auto">
-			<div className="container px-5  mx-auto w-full py-16">
-				<div className="w-full flex justify-center mb-14">
+			<div className="container px-5  mx-auto w-full py-10">
+				<div className="w-full flex justify-center mb-10">
 					<h2 className="text-white flex justify-center font-semibold text-3xl">
 						Experiencia
 					</h2>
@@ -20,8 +20,8 @@ const Feature = () => {
 						<h2 className="text-white text-lg title-font font-semibold mb-2">
 							Tecnologías
 						</h2>
-						<p className="leading-relaxed text-base">
-							"Soy un desarrollador Full Stack con especialización en el
+						<p className="leading-relaxed text-left">
+							"Soy un desarrollador FullStack con especialización en el
 							desarrollo de front-end. Tengo experiencia trabajando con
 							tecnologías como JavaScript, React, HTML y CSS. Estoy capacitado
 							en usar estas tecnologías para crear interfaces responsivas y
@@ -36,8 +36,8 @@ const Feature = () => {
 						<h2 className="text-white text-lg title-font font-semibold mb-2">
 							Trabajo en equipo
 						</h2>
-						<p className="leading-relaxed text-base">
-							"Soy un desarrollador Full Stack con experiencia trabajando en
+						<p className="leading-relaxed text-left">
+							"Soy un desarrollador FullStack con experiencia trabajando en
 							equipos multidisciplinarios. Me considero una persona
 							colaborativa, proactiva y comprometida. Disfruto trabajar en
 							ambientes de equipo y creo que la comunicación y el trabajo en
@@ -59,8 +59,8 @@ const Feature = () => {
 						<h2 className="text-white text-lg title-font font-semibold mb-2">
 							Trabajo individual
 						</h2>
-						<p className="leading-relaxed text-base">
-							"Como desarrollador Full Stack, me siento cómodo tanto trabajando
+						<p className="leading-relaxed text-left">
+							"Como desarrollador FullStack, me siento cómodo tanto trabajando
 							en equipo como de manera independiente. Soy capaz de gestionar mi
 							tiempo eficazmente y priorizar tareas para cumplir con los plazos.
 							Soy un aprendiz autodirigido y disfruto investigando nuevas

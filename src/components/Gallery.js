@@ -10,15 +10,16 @@ const Gallery = ({ id }) => {
 	return (
 		<section
 			id={id}
-			className="text-gold font-lato font-semibold bg-mate3 w-full pb-16">
+			className="text-gold font-lato font-semibold bg-mate3 w-full pb-10">
 			<div className="container px-5 py-4 mx-auto w-full">
-				<div className="flex flex-col text-center w-full mb-16">
+				<div className="flex flex-col text-center w-full mb-10">
 					<h2 className="text-3xl mb-4 text-white">Proyectos</h2>
 				</div>
 				<div
 					id="carouselExampleCaptions"
 					className="carousel slide relative"
-					data-bs-ride="carousel">
+					data-bs-ride="carousel"
+					data-bs-interval="false">
 					<div className="carousel-indicators absolute right-0 bottom-0 left-0 flex justify-center p-0 mb-4">
 						<button
 							type="button"
