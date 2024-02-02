@@ -2,7 +2,6 @@ import React from "react";
 import mail from "../assets/email.svg";
 import phone from "../assets/phone.svg";
 import map from "../assets/map.svg";
-import insta from "../assets/instagram.svg";
 import whatsapp from "../assets/whatsapp.svg";
 import linkedin from "../assets/linkedin.svg";
 import github2 from "../assets/github2.svg";
@@ -56,13 +55,6 @@ const Footer = () => {
 					<div className="border border-solid border-gold"></div>
 				</div>
 				<a
-					href="https://www.instagram.com/nacho_ignacio3/"
-					target="_blank"
-					rel="noopener noreferrer"
-					className="flex flex-col mx-4 justify-center md:w-20 lg:w-20 btn-footer btn-footer-animation">
-					<img src={insta} alt="instagram" width="150px" />
-				</a>
-				<a
 					href="https://wa.me/5492224456653"
 					target="_blank"
 					rel="noopener noreferrer"
@@ -86,11 +78,6 @@ const Footer = () => {
 				<div className="flex flex-col w-full justify-center">
 					<div className="border border-solid border-gold"></div>
 				</div>
-			</div>
-			<div>
-				<h2 className="flex justify-center text-gold font-merriweather font-semibold text-lg">
-					❝Gracias Por Su Tiempo❞
-				</h2>
 			</div>
 		</footer>
 	);

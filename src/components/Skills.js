@@ -14,7 +14,7 @@ import next from "../assets/nextjs.svg";
 
 const Skills = ({ id }) => {
 	return (
-		<section id={id} className="bg-mate3 font-lato w-full pb-10">
+		<section id={id} className="bg-mate3 font-lato w-full pb-8">
 			<div className="flex justify-center">
 				<h2 className=" text-white flex justify-center py-2 font-semibold text-3xl">
 					Habilidades

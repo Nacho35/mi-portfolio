@@ -10,9 +10,9 @@ const Gallery = ({ id }) => {
 	return (
 		<section
 			id={id}
-			className="text-gold font-lato font-semibold bg-mate3 w-full pb-10">
+			className="text-gold font-lato font-semibold bg-mate3 w-full">
 			<div className="container px-5 py-4 mx-auto w-full">
-				<div className="flex flex-col text-center w-full mb-10">
+				<div className="flex flex-col text-center w-full mb-8">
 					<h2 className="text-3xl mb-4 text-white">Proyectos</h2>
 				</div>
 				<div

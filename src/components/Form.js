@@ -11,7 +11,7 @@ const Form = ({ id }) => {
 			id={id}
 			className="text-white font-lato bg-mate3 relative w-full pb-10 lg:pb-10 md:h-auto">
 			<div className="container px-5 mx-auto w-full">
-				<div className="flex flex-col text-center w-full mb-10">
+				<div className="flex flex-col text-center w-full mb-6">
 					<h1 className="text-3xl mb-4 text-white font-semibold">Contacto</h1>
 				</div>
 				<Formik

@@ -3,13 +3,13 @@ import me from "../assets/yo.jpg";
 
 const About = ({ id }) => {
 	return (
-		<section id={id} className="bg-mate3 font-lato w-full pb-10">
+		<section id={id} className="bg-mate3 font-lato w-full pb-6">
 			<div className="container max-h-fit w-full mx-auto flex px-5  md:flex-col flex-col items-center lg:flex-row md:flex md:text-center">
-				<div className="lg:flex-grow md:w-full lg:pr-24 md:pt-14 flex flex-col md:items-center lg:items-start md:text-justify mb-16 py-4 lg:my-24 md:mb-auto items-center text-center">
+				<div className="lg:flex-grow md:w-full lg:pr-24 md:pt-14 flex flex-col md:items-center lg:items-start md:text-justify mb-6 py-4 lg:my-24 md:mb-auto items-center text-center">
 					<h1 className="sm:text-4xl text-3xl mb-4 font-semibold text-white">
 						Acerca de mí
 					</h1>
-					<p className="mb-8 leading-relaxed text-gold font-semibold text-justify">
+					<p className="mb-8 leading-loose text-gold font-semibold text-left">
 						Hola, mi nombre es Ignacio y soy un desarrollador apasionado por la
 						tecnología. Mi objetivo a largo plazo es seguir creciendo
 						profesionalmente en el desarrollo web, y en un futuro ingresar al
