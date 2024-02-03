@@ -33,7 +33,6 @@ nav {
 /** Home **/
 
 .button-home {
-  opacity: 0;
   transform: scale(1);
   transition: opacity 2s ease-in-out, transform 0.5s ease-in-out;
 }
@@ -41,20 +40,6 @@ nav {
 .button-home:hover {
   transform: scale(1.20);
   transition: transform 0.5s ease-in-out;
-}
-
-@keyframes fadeIn {
-  0% {
-    opacity: 0;
-  }
-
-  100% {
-    opacity: 1;
-  }
-}
-
-.button-home-animation {
-  animation: fadeIn 2s ease-in-out 3s forwards;
 }
 
 /** Skills **/

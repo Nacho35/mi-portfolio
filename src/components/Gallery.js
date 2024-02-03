@@ -1,12 +1,43 @@
 import React from "react";
-import "tw-elements";
-import bar from "../assets/bar.png";
-import bookstorage from "../assets/bookstorage.png";
-import bookstorage2 from "../assets/bookstorage2.png";
-import ongbird from "../assets/ongbird.png";
-import travel from "../assets/TravelN.png";
+import Card from "./Card";
+import prueba from "../assets/prueba.jpg";
 
 const Gallery = ({ id }) => {
+	const projects = [
+		{
+			image: prueba,
+			projectLink: "https://youtu.be/mKcAH-AFvO4",
+			title: "Fast Diary App",
+			description:
+				"Fast Diary es una app web de gestión del tiempo con Calendario, Lista de Tareas, Reloj, Temporizador y Asistente. Organiza tu rutina diaria para un estilo de vida organizado y productivo. ¡Optimiza tu tiempo con herramientas poderosas y un asistente dedicado!",
+			footer: "Creado con React.js & Next.js",
+		},
+		{
+			image: prueba,
+			projectLink: "https://youtu.be/oWTLtwmS6NU",
+			title: "E-commerce App",
+			description:
+				"Este proyecto es un sitio web de restaurante con diseño responsive. El frontend utiliza React con Styled Components para el diseño y React Slick para mostrar imágenes. El backend almacena productos en una base de datos JSON y utiliza Axios para manejar peticiones HTTP en el carro de compras.",
+			footer: "Creado con React.js",
+		},
+		{
+			image: prueba,
+			projectLink: "https://youtu.be/AHKRMf78B7E",
+			title: "Leaf DB App",
+			description:
+				"Este proyecto consiste en una app web que se conecta a una base de datos SQL para almacenar y gestionar información sobre productos. Este backend proporcionará una interfaz y lógica de programación que permitirá a los usuarios realizar operaciones de creación, lectura, actualización y eliminación de productos en la base de datos.",
+			footer: "Creado con Express.js & Node.js",
+		},
+		{
+			image: prueba,
+			projectLink: "",
+			title: "TravelN App",
+			description:
+				"La app es una agencia de viajes que ofrece paquetes mundiales. conecta con una base de datos JSON. Permite seleccionar paquetes, ver ofertas, gestionar el carro, simular costos de vacaciones. Al hacer clic en seleccionar fecha, completa un formulario, genera un modal de confirmación y, al hacer clic en agregar, actualiza el carro.",
+			footer: "Creado con React.js",
+		},
+	];
+
 	return (
 		<section
 			id={id}
@@ -15,77 +46,10 @@ const Gallery = ({ id }) => {
 				<div className="flex flex-col text-center w-full mb-8">
 					<h2 className="text-3xl mb-4 text-white">Proyectos</h2>
 				</div>
-				<div
-					id="carouselExampleCaptions"
-					className="carousel slide relative"
-					data-bs-ride="carousel"
-					data-bs-interval="false">
-					<div className="carousel-indicators absolute right-0 bottom-0 left-0 flex justify-center p-0 mb-4">
-						<button
-							type="button"
-							data-bs-target="#carouselExampleCaptions"
-							data-bs-slide-to="0"
-							className="active"
-							aria-current="true"
-							aria-label="Slide 1"></button>
-						<button
-							type="button"
-							data-bs-target="#carouselExampleCaptions"
-							data-bs-slide-to="1"
-							aria-label="Slide 2"></button>
-						<button
-							type="button"
-							data-bs-target="#carouselExampleCaptions"
-							data-bs-slide-to="2"
-							aria-label="Slide 3"></button>
-						<button
-							type="button"
-							data-bs-target="#carouselExampleCaptions"
-							data-bs-slide-to="3"
-							aria-label="Slide 4"></button>
-						<button
-							type="button"
-							data-bs-target="#carouselExampleCaptions"
-							data-bs-slide-to="4"
-							aria-label="Slide 5"></button>
-					</div>
-					<div className="carousel-inner relative w-full overflow-hidden">
-						<div className="carousel-item active relative float-left w-full">
-							<img src={travel} className="block w-full" alt="..." />
-						</div>
-						<div className="carousel-item relative float-left w-full">
-							<img src={bookstorage} className="block w-full" alt="..." />
-						</div>
-						<div className="carousel-item relative float-left w-full">
-							<img src={bookstorage2} className="block w-full" alt="..." />
-						</div>
-						<div className="carousel-item relative float-left w-full">
-							<img src={ongbird} className="block w-full" alt="..." />
-						</div>
-						<div className="carousel-item relative float-left w-full">
-							<img src={bar} className="block w-full" alt="..." />
-						</div>
-					</div>
-					<button
-						className="carousel-control-prev absolute top-0 bottom-0 flex items-center justify-center p-0 text-center border-0 hover:outline-none hover:no-underline focus:outline-none focus:no-underline left-0"
-						type="button"
-						data-bs-target="#carouselExampleCaptions"
-						data-bs-slide="prev">
-						<span
-							className="carousel-control-prev-icon inline-block bg-no-repeat"
-							aria-hidden="true"></span>
-						<span className="visually-hidden">Previous</span>
-					</button>
-					<button
-						className="carousel-control-next absolute top-0 bottom-0 flex items-center justify-center p-0 text-center border-0 hover:outline-none hover:no-underline focus:outline-none focus:no-underline right-0"
-						type="button"
-						data-bs-target="#carouselExampleCaptions"
-						data-bs-slide="next">
-						<span
-							className="carousel-control-next-icon inline-block bg-no-repeat"
-							aria-hidden="true"></span>
-						<span className="visually-hidden">Next</span>
-					</button>
+				<div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-4 gap-8">
+					{projects.map((project, index) => (
+						<Card key={index} {...project} />
+					))}
 				</div>
 				<a
 					href="https://drive.google.com/file/d/13kIAPHqpxjyujXM8VdOwtFvzxqoT87MU/view?usp=share_link"
