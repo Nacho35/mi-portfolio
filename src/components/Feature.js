@@ -21,7 +21,7 @@ const Feature = () => {
 						<h2 className="text-white text-lg title-font font-semibold mb-2">
 							Tecnologías
 						</h2>
-						<p className="leading-loose text-left">
+						<p className="leading-loose text-justify">
 							Soy un desarrollador FullStack con especialización en el
 							desarrollo de front-end. Tengo experiencia trabajando con
 							tecnologías como JavaScript, React, HTML y CSS. Estoy capacitado
@@ -37,13 +37,13 @@ const Feature = () => {
 						<h2 className="text-white text-lg title-font font-semibold mb-2">
 							Trabajo en equipo
 						</h2>
-						<p className="leading-loose text-left">
-							Soy un desarrollador FullStack con experiencia trabajando en
+						<p className="leading-loose text-justify">
+							Como desarrollador FullStack, poseo experiencia trabajando en
 							equipos multidisciplinarios. Me considero una persona
 							colaborativa, proactiva y comprometida. Disfruto trabajar en
 							ambientes de equipo y creo que la comunicación y el trabajo en
 							equipo son clave para lograr el éxito en cualquier proyecto. Mi
-							experiencia laboral incluye trabajar en equipos de diferentes
+							experiencia laboral incluye trabajar en equipos de diversos
 							tamaños y en diferentes etapas del proyecto, desde la
 							planificación hasta el lanzamiento.
 						</p>
@@ -60,7 +60,7 @@ const Feature = () => {
 						<h2 className="text-white text-lg title-font font-semibold mb-2">
 							Trabajo individual
 						</h2>
-						<p className="leading-loose text-left">
+						<p className="leading-loose text-justify">
 							Como desarrollador FullStack, me siento cómodo tanto trabajando en
 							equipo como de manera independiente. Soy capaz de gestionar mi
 							tiempo eficazmente y priorizar tareas para cumplir con los plazos.
@@ -80,7 +80,7 @@ const Feature = () => {
 						<h2 className="text-white text-lg title-font font-semibold mb-2">
 							Formacion
 						</h2>
-						<p className="leading-loose text-left">
+						<p className="leading-loose text-justify">
 							Soy un profesional del desarrollo web formado en la Academia Numen
 							en Buenos Aires, donde adquirí habilidades FullStack en un
 							programa intensivo. Mi enfoque incluyó el dominio de HTML, CSS,

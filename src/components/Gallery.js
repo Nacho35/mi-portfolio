@@ -1,11 +1,14 @@
 import React from "react";
 import Card from "./Card";
-import prueba from "../assets/prueba.jpg";
+import ecommerce from "../assets/e-commerce.svg";
+import books from "../assets/bookstorage.svg";
+import diary from "../assets/fastdiary.svg";
+import db from "../assets/leafdb.svg";
 
 const Gallery = ({ id }) => {
 	const projects = [
 		{
-			image: prueba,
+			image: diary,
 			projectLink: "https://youtu.be/mKcAH-AFvO4",
 			title: "Fast Diary App",
 			description:
@@ -13,7 +16,7 @@ const Gallery = ({ id }) => {
 			footer: "Creado con React.js & Next.js",
 		},
 		{
-			image: prueba,
+			image: ecommerce,
 			projectLink: "https://youtu.be/oWTLtwmS6NU",
 			title: "E-commerce App",
 			description:
@@ -21,7 +24,7 @@ const Gallery = ({ id }) => {
 			footer: "Creado con React.js",
 		},
 		{
-			image: prueba,
+			image: db,
 			projectLink: "https://youtu.be/AHKRMf78B7E",
 			title: "Leaf DB App",
 			description:
@@ -29,12 +32,12 @@ const Gallery = ({ id }) => {
 			footer: "Creado con Express.js & Node.js",
 		},
 		{
-			image: prueba,
-			projectLink: "",
-			title: "TravelN App",
+			image: books,
+			projectLink: "https://youtu.be/NpLSt0Ly7wg",
+			title: "Books Storage App",
 			description:
-				"La app es una agencia de viajes que ofrece paquetes mundiales. conecta con una base de datos JSON. Permite seleccionar paquetes, ver ofertas, gestionar el carro, simular costos de vacaciones. Al hacer clic en seleccionar fecha, completa un formulario, genera un modal de confirmación y, al hacer clic en agregar, actualiza el carro.",
-			footer: "Creado con React.js",
+				"Proyecto CRUD de libros: Plataforma informativa para agregar, obtener y eliminar datos de libros. Interfaz intuitiva para gestionar eficientemente la información bibliográfica. Ideal para la gestión de bibliotecas o colecciones de libros, con operaciones de GET, POST y DELETE habilitadas.",
+			footer: "Creado con Express.js & Node.js",
 		},
 	];
 

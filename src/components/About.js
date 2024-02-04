@@ -1,5 +1,5 @@
 import React from "react";
-import me from "../assets/yo.jpg";
+import me from "../assets/yo.webp";
 
 const About = ({ id }) => {
 	return (
@@ -9,7 +9,7 @@ const About = ({ id }) => {
 					<h1 className="sm:text-4xl text-3xl mb-4 font-semibold text-white">
 						Acerca de mí
 					</h1>
-					<p className="mb-8 leading-loose text-gold font-semibold text-left">
+					<p className="mb-8 leading-loose text-gold font-semibold text-justify">
 						Hola, mi nombre es Ignacio y soy un desarrollador apasionado por la
 						tecnología. Mi objetivo a largo plazo es seguir creciendo
 						profesionalmente en el desarrollo web, y en un futuro ingresar al
