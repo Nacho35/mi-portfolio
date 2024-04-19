@@ -30,7 +30,7 @@ const Skills = ({ id }) => {
 					<div className="flex flex-wrap justify-center">
 						{/* HTML */}
 						<div className="mb-4 mr-4">
-							<div className="relative flex justify-center bg-transparent px-8 lg:px-12 skill skill-animation">
+							<div className="relative flex justify-center bg-transparent px-8 lg:px-12">
 								<img
 									className="ml-auto mr-auto my-7"
 									src={html}
@@ -44,7 +44,7 @@ const Skills = ({ id }) => {
 						</div>
 						{/* CSS */}
 						<div className="mb-4 mr-4">
-							<div className="relative flex justify-center bg-transparent px-8 lg:px-12 skill skill-animation">
+							<div className="relative flex justify-center bg-transparent px-8 lg:px-12">
 								<img
 									className="ml-auto mr-auto my-7"
 									src={css}
@@ -58,7 +58,7 @@ const Skills = ({ id }) => {
 						</div>
 						{/* JavaScript */}
 						<div className="mb-4 mr-4">
-							<div className="relative flex justify-center bg-transparent px-8 lg:px-12 skill skill-animation">
+							<div className="relative flex justify-center bg-transparent px-8 lg:px-12">
 								<img
 									className="ml-auto mr-auto my-7"
 									src={javascript}
@@ -81,7 +81,7 @@ const Skills = ({ id }) => {
 					<div className="flex flex-wrap justify-center">
 						{/* TypeScript */}
 						<div className="mb-4 mr-4">
-							<div className="relative flex justify-center bg-transparent px-8 lg:px-12 skill skill-animation">
+							<div className="relative flex justify-center bg-transparent px-8 lg:px-12">
 								<img
 									className="ml-auto mr-auto my-7"
 									src={typescript}
@@ -95,7 +95,7 @@ const Skills = ({ id }) => {
 						</div>
 						{/* Express.js */}
 						<div className="mb-4 mr-4">
-							<div className="relative flex justify-center bg-transparent px-8 lg:px-12 skill skill-animation">
+							<div className="relative flex justify-center bg-transparent px-8 lg:px-12">
 								<img
 									className="ml-auto mr-auto my-7"
 									src={ex}
@@ -109,7 +109,7 @@ const Skills = ({ id }) => {
 						</div>
 						{/* Node.js */}
 						<div className="mb-4 mr-4">
-							<div className="relative flex justify-center bg-transparent px-8 lg:px-12 skill skill-animation">
+							<div className="relative flex justify-center bg-transparent px-8 lg:px-12">
 								<img
 									className="ml-auto mr-auto my-7"
 									src={nodejs}
@@ -132,7 +132,7 @@ const Skills = ({ id }) => {
 					<div className="flex flex-wrap justify-center">
 						{/* MongoDB */}
 						<div className="mb-4 mr-4">
-							<div className="relative flex justify-center bg-transparent px-8 lg:px-12 skill skill-animation">
+							<div className="relative flex justify-center bg-transparent px-8 lg:px-12">
 								<img
 									className="ml-auto mr-auto my-7"
 									src={mongo}
@@ -146,7 +146,7 @@ const Skills = ({ id }) => {
 						</div>
 						{/* MySQL */}
 						<div className="mb-4 mr-4">
-							<div className="relative flex justify-center bg-transparent px-8 lg:px-12 skill skill-animation">
+							<div className="relative flex justify-center bg-transparent px-8 lg:px-12">
 								<img
 									className="ml-auto mr-auto my-7"
 									src={sql}
@@ -169,7 +169,7 @@ const Skills = ({ id }) => {
 					<div className="flex flex-wrap justify-center">
 						{/* React */}
 						<div className="mb-4 mr-4">
-							<div className="relative flex justify-center bg-transparent px-8 lg:px-12 skill skill-animation">
+							<div className="relative flex justify-center bg-transparent px-8 lg:px-12">
 								<img
 									className="ml-auto mr-auto my-7"
 									src={react}
@@ -183,7 +183,7 @@ const Skills = ({ id }) => {
 						</div>
 						{/* Next.js */}
 						<div className="mb-4 mr-4">
-							<div className="relative flex justify-center bg-transparent px-8 lg:px-12 skill skill-animation">
+							<div className="relative flex justify-center bg-transparent px-8 lg:px-12">
 								<img
 									className="ml-auto mr-auto my-7"
 									src={next}
@@ -197,7 +197,7 @@ const Skills = ({ id }) => {
 						</div>
 						{/* Vite */}
 						<div className="mb-4 mr-4">
-							<div className="relative flex justify-center bg-transparent px-8 lg:px-12 skill skill-animation">
+							<div className="relative flex justify-center bg-transparent px-8 lg:px-12">
 								<img
 									className="ml-auto mr-auto my-7"
 									src={vite}
@@ -220,7 +220,7 @@ const Skills = ({ id }) => {
 					<div className="flex flex-wrap justify-center">
 						{/* Git */}
 						<div className="mb-4 mr-4">
-							<div className="relative flex justify-center bg-transparent px-8 lg:px-12 skill skill-animation">
+							<div className="relative flex justify-center bg-transparent px-8 lg:px-12">
 								<img
 									className="ml-auto mr-auto my-7"
 									src={git}
@@ -234,7 +234,7 @@ const Skills = ({ id }) => {
 						</div>
 						{/* GitHub */}
 						<div className="mb-4 mr-4">
-							<div className="relative flex justify-center bg-transparent px-8 lg:px-12 skill skill-animation">
+							<div className="relative flex justify-center bg-transparent px-8 lg:px-12">
 								<img
 									className="ml-auto mr-auto my-7"
 									src={github}

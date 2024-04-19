@@ -42,24 +42,6 @@ nav {
   transition: transform 0.5s ease-in-out;
 }
 
-/** Skills **/
-
-.skill {
-  transform: scale(1);
-  transition: opacity 2s ease-in-out, transform 0.5s ease-in-out;
-}
-
-.skill:hover {
-  transform: scale(1.20);
-  transition: transform 0.5s ease-in-out;
-}
-
-
-
-.skill-animation {
-  animation: ease-in-out 3s forwards;
-}
-
 /** Download Button **/
 
 .down {
