@@ -4,6 +4,7 @@ import ecommerce from "../assets/e-commerce.svg";
 import books from "../assets/bookstorage.svg";
 import diary from "../assets/fastdiary.svg";
 import db from "../assets/leafdb.svg";
+import market from "../assets/market.webp";
 
 const Gallery = ({ id }) => {
 	const projects = [
@@ -39,6 +40,14 @@ const Gallery = ({ id }) => {
 				"Proyecto CRUD de libros: Plataforma informativa para agregar, obtener y eliminar datos de libros. Interfaz intuitiva para gestionar eficientemente la información bibliográfica. Ideal para la gestión de bibliotecas o colecciones de libros, con operaciones de GET, POST y DELETE habilitadas.",
 			footer: "Creado con Express.js & Node.js",
 		},
+		{
+			image: market,
+			projectLink: "https://eco-market-green.netlify.app/",
+			title: "Eco Market App",
+			description:
+				"Este sitio es una tienda en línea diseñada para promover un estilo de vida saludable y sostenible, ofreciendo una amplia variedad de productos eco-friendly y orgánicos. Desarrollada con tecnologías modernas como React, Vite y TypeScript, esta aplicación proporciona una experiencia de usuario fluida y receptiva.",
+			footer: "Creado con React.js, Vite, & TypeScript",
+		},
 	];
 
 	return (
@@ -49,7 +58,7 @@ const Gallery = ({ id }) => {
 				<div className="flex flex-col text-center w-full mb-8">
 					<h2 className="text-3xl mb-4 text-white">Proyectos</h2>
 				</div>
-				<div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-4 gap-8">
+				<div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 gap-8">
 					{projects.map((project, index) => (
 						<Card key={index} {...project} />
 					))}
